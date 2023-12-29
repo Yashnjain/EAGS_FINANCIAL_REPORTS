@@ -164,7 +164,7 @@ def row_range_calc(filter_col:str, input_sht,wb):
     flat_list = [item for sublist in init_list for item in sublist]
     return flat_list, sp_lst_row,sp_address
 
-
+     
     
 def proceesing_report(template_wb,raw_wb,compare_wb):
     try:  
@@ -195,7 +195,7 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
             template_wb.app.api.CutCopyMode=False
 
             ########## converting date and dragging formulas ###########
-
+            data_sheet.range("E:E").number_format = 'mm-dd-yyyy'
             data_sheet.range(f"A3").value = "2"
             data_sheet.api.Range(f"A2:A3").Select()
             # data_sheet.api.Range(f"A2:A{lst_rw_raw}").FillDown()
@@ -209,6 +209,8 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
             interior_coloring_temp(16776960,cellrange=f"H{lst_rw_raw+1}",working_sheet=data_sheet,working_workbook=template_wb)
             data_sheet.api.Range(f"H{lst_rw_raw+1}").Select()
             template_wb.app.api.Selection.AutoFill(Destination=data_sheet.api.Range(f"H{lst_rw_raw+1}:R{lst_rw_raw+1}"),Type=win32c.AutoFillType.xlFillDefault)
+            data_sheet.api.Range(f"I2:R2").Select()
+            template_wb.app.api.Selection.AutoFill(Destination=data_sheet.api.Range(f"I2:R{lst_rw_raw}"),Type=win32c.AutoFillType.xlFillSeries)
             data_sheet.autofit()
             interior_coloring_temp(10092288,cellrange=f"H1:H{lst_rw_raw}",working_sheet=data_sheet,working_workbook=template_wb)
             data_sheet.api.Range(f"H{lst_rw_raw+1}:R{lst_rw_raw+1}").Font.Bold = True
@@ -240,6 +242,33 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
             Eags_sgp_sheet.api.Range(f"E4")._PasteSpecial(Paste=win32c.PasteType.xlPasteValues) 
             template_wb.app.api.CutCopyMode=False 
             Eags_sgp_sheet.autofit()
+            curr_col_list = Eags_sgp_sheet.range("A1").expand('right').value
+            Total_outstanding_col = curr_col_list.index("Total Outstanding")
+            Total_outstanding_col_letters = num_to_col_letters(Total_outstanding_col+1)
+            last_row = Eags_sgp_sheet.range(f'A'+ str(Eags_sgp_sheet.cells.last_cell.row)).end('up').row
+            Eags_sgp_sheet.api.Range(f"A1:{Total_outstanding_col_letters}{last_row}").AutoFilter(Field:=Total_outstanding_col+1, Criteria1="<0")
+            Eags_sgp_sheet.api.Range(f"A2:{Total_outstanding_col_letters}{last_row}").EntireRow.SpecialCells(win32c.CellType.xlCellTypeVisible).Select()
+            template_wb.app.selection.delete(shift='left')
+            Eags_sgp_sheet.api.AutoFilterMode = False
+
+            last_row = Eags_sgp_sheet.range(f'A'+ str(Eags_sgp_sheet.cells.last_cell.row)).end('up').row
+            # try:
+            #     for i in range(4,last_row+1):
+            #         if i ==28:
+            #             pass
+            #         a=int(Eags_sgp_sheet.range(F"G{i}").value)
+            #         b=int(Eags_sgp_sheet.range(F"H{i}").value)
+            #         if b==-a and b!=0 and a!=0:
+            #             print("exception found ")
+            #             Eags_sgp_sheet.range(f'{i}').copy()
+            #             Eags_sgp_sheet.range(f'{last_row+6}').paste()
+            #             Eags_sgp_sheet.range(f'{i}').delete()
+            #         else:
+            #             print('continue')
+            #             continue
+            # except Exception as e:
+            #     print('error in EAGS_SGP')
+            #     raise e
 
             print("proceess completed for xcel")
 
@@ -274,7 +303,7 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
                     template_wb.app.quit()
                 except:
                     pass
-                receiver_email = "yashn.jain@biourja.com,arun.kaul@biourja.com,pravin.anthon@biourja.com,neeraj.gupta@biourja.com,bharat.pathak@biourja.com"
+                receiver_email = "deep.durugkar@biourja.com,yashn.jain@biourja.com,arun.kaul@biourja.com,pravin.anthon@biourja.com,neeraj.gupta@biourja.com,bharat.pathak@biourja.com"
                 # receiver_email = "yashn.jain@biourja.com"
                 nl = '<br>'
 
@@ -286,26 +315,26 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
 
             ########## moving on to comparision sheet #####################
 
-            compare_wb.sheets.add(f"IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}",after=compare_wb.sheets['Sheet2'])
-            it_eags_sgp_sheet = compare_wb.sheets[f"IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}"]
+            compare_wb.sheets.add(f"EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}",after=compare_wb.sheets['Sheet2'])
+            EAGS_SGP_sheet = compare_wb.sheets[f"EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}"]
             Eags_sgp_sheet.api.UsedRange.Copy()
-            it_eags_sgp_sheet.range('A1').paste()
+            EAGS_SGP_sheet.range('A1').paste()
             template_wb.app.api.CutCopyMode=False
-            it_eags_sgp_sheet.autofit()
+            EAGS_SGP_sheet.autofit()
 
             ############# moving onto sheet2 ########
 
             previous_day_sheet = compare_wb.sheets[3].name
             sheet2 = compare_wb.sheets[f"Sheet2"]
             sheet2.activate()
-            sheet2.range(f"C4").value = f"='IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!E3"
-            sheet2.range(f"C5").value = f"='IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!F3"
-            sheet2.range(f"C6").value = f"='IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!G3"
-            sheet2.range(f"C7").value = f"='IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!H3"
-            sheet2.range(f"C8").value = f"='IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!I3"
-            sheet2.range(f"C9").value = f"='IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!J3"
-            sheet2.range(f"C10").value = f"='IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!K3"
-            sheet2.range(f"C11").value = f"='IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!L3"
+            sheet2.range(f"C4").value = f"='EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!E3"
+            sheet2.range(f"C5").value = f"='EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!F3"
+            sheet2.range(f"C6").value = f"='EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!G3"
+            sheet2.range(f"C7").value = f"='EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!H3"
+            sheet2.range(f"C8").value = f"='EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!I3"
+            sheet2.range(f"C9").value = f"='EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!J3"
+            sheet2.range(f"C10").value = f"='EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!K3"
+            sheet2.range(f"C11").value = f"='EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!L3"
 
 
             ############ updating yesterdays values ###########
@@ -325,14 +354,14 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
             compare_sheet.activate() 
             # column_list = compare_sheet.range("A1").expand('right').value
             total_ar_present = 3
-            list2=[f"=IFERROR(VLOOKUP(@$A:$A,'IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,5,0),0)",f"=IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,5,0),0)",f"=C6-D6",\
-                   f"=IFERROR(VLOOKUP(@$A:$A,'IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,6,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,6,0),0)",\
-                    f"=IFERROR(VLOOKUP(@$A:$A,'IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,7,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,7,0),0)",\
-                    f"=IFERROR(VLOOKUP(@$A:$A,'IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,8,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,8,0),0)",\
-                    f"=IFERROR(VLOOKUP(@$A:$A,'IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,9,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,9,0),0)",\
-                    f"=IFERROR(VLOOKUP(@$A:$A,'IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,10,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,10,0),0)",\
-                    f"=IFERROR(VLOOKUP(@$A:$A,'IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,11,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,11,0),0)",\
-                    f"=IFERROR(VLOOKUP(@$A:$A,'IT_EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,12,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,12,0),0)"]
+            list2=[f"=IFERROR(VLOOKUP(@$A:$A,'EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,5,0),0)",f"=IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,5,0),0)",f"=C6-D6",\
+                   f"=IFERROR(VLOOKUP(@$A:$A,'EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,6,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,6,0),0)",\
+                    f"=IFERROR(VLOOKUP(@$A:$A,'EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,7,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,7,0),0)",\
+                    f"=IFERROR(VLOOKUP(@$A:$A,'EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,8,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,8,0),0)",\
+                    f"=IFERROR(VLOOKUP(@$A:$A,'EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,9,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,9,0),0)",\
+                    f"=IFERROR(VLOOKUP(@$A:$A,'EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,10,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,10,0),0)",\
+                    f"=IFERROR(VLOOKUP(@$A:$A,'EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,11,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,11,0),0)",\
+                    f"=IFERROR(VLOOKUP(@$A:$A,'EAGS_SGP {datetime.strftime(today_date,'%m.%d.%y')}'!$A:$M,12,0),0)-IFERROR(VLOOKUP(@$A:$A,'{previous_day_sheet}'!$A:$M,12,0),0)"]
             
             last_row = compare_sheet.range(f'A'+ str(compare_sheet.cells.last_cell.row)).end('up').row
             for values in list2:
@@ -368,7 +397,7 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
 
             if increase_check:
                 time.sleep(2)
-                compare_sheet.range(f"O31:P{31+len(top_increasing_customers)}").api.CopyPicture(Appearance=1)
+                compare_sheet.range(f"O31:P{31+len(top_increasing_customers)}").copy()
                 time.sleep(2)
                 # grab the saved image from the clipboard and save to working directory
                 top_increasing_image_path = drive + "\\EAGS SINGAPORE REPORT" +"\\PNG Uploads" +"\\top_increasing.png"
@@ -376,7 +405,7 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
                 locations_list.append(top_increasing_image_path)
             else:
                 time.sleep(2)
-                compare_sheet.range(f"O31:P31").api.CopyPicture(Appearance=1)
+                compare_sheet.range(f"O31:P31").copy()
                 time.sleep(2)
                 # grab the saved image from the clipboard and save to working directory
                 top_increasing_image_path = drive + "\\EAGS SINGAPORE REPORT" +"\\PNG Uploads" +"\\top_increasing.png"
@@ -385,7 +414,7 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
 
             if decrease_check:
                 time.sleep(2)
-                compare_sheet.range(f"O4:P{4+len(top_decreasing_customers)}").api.CopyPicture(Appearance=1)
+                compare_sheet.range(f"O4:P{4+len(top_decreasing_customers)}").copy()
                 time.sleep(2)
                 # grab the saved image from the clipboard and save to working directory
                 top_decreasing_image_path = drive + "\\EAGS SINGAPORE REPORT" +"\\PNG Uploads" +"\\top_decreasing.png"
@@ -394,7 +423,7 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
 
             else:
                 time.sleep(2)
-                compare_sheet.range(f"O4:P4").api.CopyPicture(Appearance=1)
+                compare_sheet.range(f"O4:P4").copy()
                 time.sleep(2)
                 # grab the saved image from the clipboard and save to working directory
                 top_decreasing_image_path = drive + "\\EAGS SINGAPORE REPORT" +"\\PNG Uploads" +"\\top_decreasing.png"
@@ -403,33 +432,36 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
 
             sheet2.activate()
             time.sleep(2)
-            sheet2.range(f"B2:E11").api.CopyPicture(Appearance=1,)
+            sheet2.range(f"B2:E11").copy()
             time.sleep(2)
             # grab the saved image from the clipboard and save to working directory
             credit_report_image_path = drive + "\\EAGS SINGAPORE REPORT" +"\\PNG Uploads" +"\\credit_report.png"
             ImageGrab.grabclipboard().save(credit_report_image_path)
+            locations_list.append(credit_report_image_path)    
 
             time.sleep(2)
-            sheet2.shapes[0].api.CopyPicture(Appearance=1,)
+            sheet2.shapes[0].api.Copy()
             time.sleep(2)
             # grab the saved image from the clipboard and save to working directory
             total_ar_outstanding_image_path = drive + "\\EAGS SINGAPORE REPORT" +"\\PNG Uploads" +"\\total_ar_outstanding.png"
             ImageGrab.grabclipboard().save(total_ar_outstanding_image_path)
+            locations_list.append(total_ar_outstanding_image_path)    
 
             time.sleep(2)
-            sheet2.shapes[1].api.CopyPicture(Appearance=1)
+            sheet2.shapes[1].api.Copy()
             time.sleep(2)
             # grab the saved image from the clipboard and save to working directory
             total_cr_past_image_path = drive + "\\EAGS SINGAPORE REPORT" +"\\PNG Uploads" +"\\total_cr_past.png"
             ImageGrab.grabclipboard().save(total_cr_past_image_path)
+            locations_list.append(total_cr_past_image_path)    
 
 
             html_body= """
             <style>
                 img {
                     background-size: cover;
-                    max-height: 50vh;
-                    max-width: 70vh;
+                    max-height: 20vh;
+                    max-width: 30vh;
                     margin: 5px;
                 }
 
@@ -530,7 +562,7 @@ def proceesing_report(template_wb,raw_wb,compare_wb):
             <br>
             <!-- <h3 style="text-align: center;text-transform: capitalize; padding: 0;margin: 0;"> -->
             <h3 class="class2">
-            <u>SINGAPORE</u>
+            <u>SINGAPORE REPORT</u>
             </h3>
             
             <!-- ====================================================================== -->
@@ -612,34 +644,52 @@ if __name__ == "__main__":
 
         locations_list = []
         # logging.info('setting receiver_email')
-        receiver_email = "yashn.jain@biourja.com,arun.kaul@biourja.com,pravin.anthon@biourja.com,neeraj.gupta@biourja.com,bharat.pathak@biourja.com"
+        receiver_email = "deep.durugkar@biourja.com,imam.khan@biourja.com,yashn.jain@biourja.com,arun.kaul@biourja.com,pravin.anthon@biourja.com,neeraj.gupta@biourja.com,bharat.pathak@biourja.com"
         # receiver_email = "yashn.jain@biourja.com,imam.khan@biourja.com,apoorva.kansara@biourja.com, accounts@biourja.com, rini.gohil@biourja.com,itdevsupport@biourja.com"
         raw__path__ = drive + f'\\EAGS SINGAPORE REPORT\\Failure_Uploads'
         remove_existing_files(raw__path__)
         time_start=time.time()
         today_date=date.today()
-        raw_file_path = drive + "\\EAGS SINGAPORE REPORT"+"\\Input"
-        if len(glob.glob(raw_file_path+"\\*.xls"))>0:
-            raw_file = glob.glob(raw_file_path+"\\*.xls")[0]    
+        # raw_file_path = drive + "\\EAGS SINGAPORE REPORT"+"\\Input"
+        raw_file_path = r'J:\India\Inv Rpt\IT_INVENTORY\Risk'
+        for raw_file in glob.glob(raw_file_path+"\\*.xls"):
+                    # raw_file = glob.glob(raw_file_path+"\\*.xls")[0]    
             pathraw, file_name_inv = os.path.split(raw_file)
-            # year = today_date.year
-            # pre_month = int(re.findall("\d+",file_name_inv)[0]) - 1
-            # pre_date = today_date.replace(month=pre_month)
-            # today_date = today_date.replace(month=int(re.findall("\d+",file_name_inv)[0]))
-            # pre_date_fldr = pre_date.strftime("%m-%y")
-            # date_fldr = today_date.strftime("%m-%y")
-            small_yr = today_date.strftime("%y")
-        else:
-            logging.info(f"Report not found ::: {raw_file_path}")   
-            locations_list.append(logfile)
-            send_mail(receiver_email = receiver_email,mail_subject =f'JOB SUCCESS - {job_name}',mail_body = f'{job_name} completed successfully,Raw file not found here ::: {raw_file_path}',multiple_attachment_list = locations_list)
-                 
+            try:
+                raw_wb = xlOpner(raw_file)
+                initial_sheet =  raw_wb.sheets[0]
+                curr_col_list = initial_sheet.range("A1").expand('right').value
+                AdministrativeBranch_col = curr_col_list.index("Administrative Branch")
+                AdministrativeBranch_letters = num_to_col_letters(AdministrativeBranch_col+1)
+                last_row = initial_sheet.range(f'A'+ str(initial_sheet.cells.last_cell.row)).end('up').row
+                initial_sheet.api.Range(f"A1:{AdministrativeBranch_letters}{last_row}").AutoFilter(Field:=AdministrativeBranch_col+1, Criteria1="Singapore")
+                if "Singapore" in initial_sheet.range("A:A").value:
+                    print("SGP File Found")
+                    raw_wb.save(fr"K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS SINGAPORE REPORT\Input\SGP_{today_date}.xls")
+                    raw_wb.close()
+                    os.remove(raw_file)
+                else:
+                    raw_wb.close()
+                    continue
 
-        comaparision_workbook = drive + "\\EAGS SINGAPORE REPORT" + "\\Comparision Report" + f'\\Top 10 Increase & Decrease - Change 08.01.2023.xlsx'
+
+            except Exception as e:
+                logging.info(f"could not open workbook: {raw_file}")
+                logging.info(f"Report not found ::: {raw_file_path}")   
+                locations_list.append(logfile)
+                send_mail(receiver_email = receiver_email,mail_subject =f'JOB SUCCESS - {job_name}',mail_body = f'{job_name} completed successfully,Raw file not found here ::: {raw_file_path}',multiple_attachment_list = locations_list)
+
+            
+        raw_file =  rf"K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS SINGAPORE REPORT\Input\SGP_{today_date}.xls"  
+        raw_wb = xlOpner(raw_file)
+        raw_wb.api.AutoFilterMode=False
+        raw_wb.app.api.CutCopyMode=False
+
+        comaparision_workbook = drive + "\\EAGS SINGAPORE REPORT" + "\\Comparision Report" + f'\\Top 10 Increase & Decrease - Change.xlsx'#*
         if not os.path.exists(comaparision_workbook):
             logging.info(f"{comaparision_workbook} Excel file not present")           
 
-        template_workbook = drive + "\\EAGS SINGAPORE REPORT" + "\\Template File"+f'\\EAGS_SGP_ Credit Report_template.xlsx'
+        template_workbook = drive + "\\EAGS SINGAPORE REPORT" + "\\Template File"+f'\\EAGS_SGP_ Credit Report_12.15.2023.xlsx'
         if not os.path.exists(template_workbook):
             logging.info(f"{template_workbook} Excel file not present")
 
@@ -685,13 +735,13 @@ if __name__ == "__main__":
         try:
             template_wb.save(f"{output_location}\\EAGS_SGP_ Credit Report_{today_date}.xlsx")
             print(f"inventory done and saved in {output_location}")
-            compare_wb.save(f"{output_location}\\EAGS_SGP_ Credit Report_{today_date}.xlsx")
+            compare_wb.save(comaparision_workbook)
             print(f"inventory done and saved in {output_location}")
             wb_name = template_wb.name
             template_wb.app.quit()
         except Exception as e:
             logging.info(f"could not save or kill ::: {wb_name}")
-            raise e 
+            raise e
         
         time.sleep(2)
         # remove_existing_files(raw_file_path) #####please uncomment on prod ########

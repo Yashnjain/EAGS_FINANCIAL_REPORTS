@@ -1,0 +1,290 @@
+Administrative Branch	Customer ID	Customer Name	Customer Currency	Invoice Date	Branch	Invoice Number	External Reference	Discount Amount	Original Amount	Balance Amount	Currency	Exchange Rate	Base Currency Balance	Overdue Days	Payment Status
+EA Houston	80004	Schlumberger Technology Corporation	USD	07-26-2018	HOU	AI-107761			"6,024.17"	"6,024.17"			"6,024.17"	"1,911"	
+EA Houston	80004	Schlumberger Technology Corporation	USD	09-25-2023	MEX	AI-13676	4792143673-5		"20,532.34"	"20,532.34"			"20,532.34"	24	
+EA Houston	80004	Schlumberger Technology Corporation	USD	09-27-2023	MEX	AI-13685	4792159993		529.24	529.24			529.24	22	
+EA Houston	80004	Schlumberger Technology Corporation	USD	09-27-2023	MEX	AI-13686	4792159998		"1,301.98"	"1,301.98"			"1,301.98"	22	
+EA Houston	80004	Schlumberger Technology Corporation	USD	09-28-2023	MEX	AI-13691	4792221615		"2,370.15"	"2,370.15"			"2,370.15"	21	
+EA Houston	80004	Schlumberger Technology Corporation	USD	09-28-2023	MEX	AI-13692	4792143675		"13,427.99"	"13,427.99"			"13,427.99"	21	
+EA Houston	80004	Schlumberger Technology Corporation	USD	09-29-2023	MEX	AI-13714	4792143775-3		"2,502.67"	"2,502.67"			"2,502.67"	20	
+EA Houston	80004	Schlumberger Technology Corporation	USD	09-29-2023	MEX	AI-13715	4792159999		"1,965.18"	"1,965.18"			"1,965.18"	20	
+EA Houston	80004	Schlumberger Technology Corporation	USD	10-04-2023	MEX	AI-13727	4792143813		"23,048.23"	"23,048.23"			"23,048.23"	15	
+EA Houston	80004	Schlumberger Technology Corporation	USD	10-05-2023	MEX	AI-13732	4792220639		"14,720.92"	"14,720.92"			"14,720.92"	14	
+EA Houston	80004	Schlumberger Technology Corporation	USD	10-05-2023	MEX	AI-13733	4792202516		"8,064.90"	"8,064.90"			"8,064.90"	14	
+EA Houston	80004	Schlumberger Technology Corporation	USD	10-05-2023	MEX	AI-13734	4792202517		"13,141.35"	"13,141.35"			"13,141.35"	14	
+EA Houston	80004	Schlumberger Technology Corporation	USD	10-05-2023	MEX	AI-13735	4792159995		"2,800.25"	"2,800.25"			"2,800.25"	14	
+EA Houston	80004	Schlumberger Technology Corporation	USD	10-19-2023	MEX	AI-13816	4792220639_2		"14,720.92"	"14,720.92"			"14,720.92"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	10-20-2023	MEX	AI-13824	4792270003		"5,709.75"	"5,709.75"			"5,709.75"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	10-31-2023	MEX	AI-13882	4792320296-2		150.78	150.78			150.78		
+EA Houston	80004	Schlumberger Technology Corporation	USD	10-31-2023	MEX	AI-13883	4792320295-1		273.24	273.24			273.24		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-02-2023	MEX	AI-13904	4792323621		"1,239.12"	"1,239.12"			"1,239.12"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-02-2023	MEX	AI-13905	4792323662-2		"8,170.56"	"8,170.56"			"8,170.56"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-02-2023	MEX	AI-13906	4792323453-1		"2,992.98"	"2,992.98"			"2,992.98"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-02-2023	MEX	AI-13907	4792323455-1		"1,779.60"	"1,779.60"			"1,779.60"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-02-2023	MEX	AI-13908	4792323456		666.11	666.11			666.11		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-02-2023	MEX	AI-13909	4792323558-2		"16,980.69"	"16,980.69"			"16,980.69"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-02-2023	MEX	AI-13910	4792323559-1		"11,562.81"	"11,562.81"			"11,562.81"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-02-2023	MEX	AI-13911	4792323620-2		"5,991.72"	"5,991.72"			"5,991.72"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-03-2023	MEX	AI-13915	4792328238-2		"27,225.21"	"27,225.21"			"27,225.21"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-07-2023	MEX	AI-13927	4792323459-3		"11,935.16"	"11,935.16"			"11,935.16"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-07-2023	MEX	AI-13928	4792323458		"15,024.30"	"15,024.30"			"15,024.30"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-09-2023	MEX	AI-13942	4792328188-1		559.38	559.38			559.38		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-09-2023	MEX	AI-13943	4792323629-5		230	230			230		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-09-2023	MEX	AI-13944	4792323629-4		"3,928.54"	"3,928.54"			"3,928.54"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-10-2023	MEX	AI-13949	4792323459_5		"4,771.31"	"4,771.31"			"4,771.31"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	11-28-2023	MEX	AI-14008	4792402360		"1,124.22"	"1,124.22"			"1,124.22"		
+EA Houston	80004	Schlumberger Technology Corporation	USD	12-11-2023	MEX	AI-14059	4792419563-2		"1,272.75"	"1,272.75"			"1,272.75"		
+EA Houston	80007	Vallourec Tube-Alloy LLC	USD	10-25-2023	HOU	AI-13852	2193407		"13,552.00"	"13,552.00"			"13,552.00"	34	
+EA Houston	80007	Vallourec Tube-Alloy LLC	USD	12-07-2023	HOU	AI-14043	2193949		"13,552.00"	"13,552.00"			"13,552.00"		
+EA Houston	80008	Weatherford International	USD	10-23-2023	HOU	AI-13840	16589063- Line 1 / 283		293.74	293.74			293.74	36	
+EA Houston	80008	Weatherford International	USD	10-27-2023	HOU	AI-13869	16602935		"3,445.00"	"3,445.00"			"3,445.00"	32	
+EA Houston	80008	Weatherford International	USD	10-27-2023	WMS	AI-13870	16561729 / 1977974		"6,527.40"	"6,527.40"			"6,527.40"	32	
+EA Houston	80008	Weatherford International	USD	10-27-2023	WMS	AI-13871	16569200 Line 2 / 2771		"7,712.05"	"7,712.05"			"7,712.05"	32	
+EA Houston	80008	Weatherford International	USD	10-27-2023	WMS	AI-13872	16584592 Line 6 / 2983		361.32	361.32			361.32	32	
+EA Houston	80008	Weatherford International	USD	10-27-2023	WMS	AI-13873	16588735- Line 1 / 298		"8,447.31"	"8,447.31"			"8,447.31"	32	
+EA Houston	80008	Weatherford International	USD	10-27-2023	WMS	AI-13874	16601124- Line 3 / 298		"5,734.27"	"5,734.27"			"5,734.27"	32	
+EA Houston	80008	Weatherford International	USD	10-27-2023	WMS	AI-13875	16603349 Line 1 / 2981		"2,459.18"	"2,459.18"			"2,459.18"	32	
+EA Houston	80008	Weatherford International	USD	10-31-2023	HOU	AI-13891	16594600		197.93	197.93			197.93	28	
+EA Houston	80008	Weatherford International	USD	11-03-2023	WMS	AI-13916	16569179 Line 1 / 2771		"2,677.50"	"2,677.50"			"2,677.50"	25	
+EA Houston	80008	Weatherford International	USD	11-03-2023	WMS	AI-13917	16570135 Line 3 / 2565		"1,727.55"	"1,727.55"			"1,727.55"	25	
+EA Houston	80008	Weatherford International	USD	11-03-2023	WMS	AI-13918	16608647 Line 3 / 2838		"6,058.55"	"6,058.55"			"6,058.55"	25	
+EA Houston	80008	Weatherford International	USD	11-03-2023	WMS	AI-13919	16530300 Line 6.001 /		"1,537.80"	"1,537.80"			"1,537.80"	25	
+EA Houston	80008	Weatherford International	USD	11-10-2023	HOU	AI-13950	16582561		"1,214.40"	"1,214.40"			"1,214.40"	18	
+EA Houston	80008	Weatherford International	USD	11-10-2023	WMS	AI-13951	16513528- Line 3 / 277		"6,522.99"	"6,522.99"			"6,522.99"	18	
+EA Houston	80008	Weatherford International	USD	11-10-2023	WMS	AI-13952	16569349 Line 3 / 2565		810.08	810.08			810.08	18	
+EA Houston	80008	Weatherford International	USD	11-10-2023	WMS	AI-13953	16608655 Line 1 / 2981		"3,365.18"	"3,365.18"			"3,365.18"	18	
+EA Houston	80008	Weatherford International	USD	11-10-2023	WMS	AI-13954	16614185		63.39	63.39			63.39	18	
+EA Houston	80008	Weatherford International	USD	11-10-2023	WMS	AI-13955	16614163 Line 1 / 2983		"2,201.85"	"2,201.85"			"2,201.85"	18	
+EA Houston	80008	Weatherford International	USD	11-10-2023	WMS	AI-13956	16614172 Line 1/ 17295		"4,128.86"	"4,128.86"			"4,128.86"	18	
+EA Houston	80008	Weatherford International	USD	11-10-2023	WMS	AI-13957	16614267 Line 2 / 2983		"1,790.00"	"1,790.00"			"1,790.00"	18	
+EA Houston	80008	Weatherford International	USD	11-20-2023	HOU	AI-13988	16570115		132	132			132	8	
+EA Houston	80008	Weatherford International	USD	11-20-2023	WMS	AI-13989	16608655 Line 2 / 2981		"1,349.77"	"1,349.77"			"1,349.77"	8	
+EA Houston	80008	Weatherford International	USD	11-20-2023	WMS	AI-13990	16618110 Line 1 / 2191		"39,933.00"	"39,933.00"			"39,933.00"	8	
+EA Houston	80008	Weatherford International	USD	11-28-2023	HOU	AI-14009	16616004		"1,211.66"	"1,211.66"			"1,211.66"		
+EA Houston	80008	Weatherford International	USD	11-28-2023	HOU	AI-14010	16623229		"9,425.72"	"9,425.72"			"9,425.72"		
+EA Houston	80008	Weatherford International	USD	11-28-2023	WMS	AI-14011	16625615 Line 1 / 1729		"7,471.28"	"7,471.28"			"7,471.28"		
+EA Houston	80008	Weatherford International	USD	11-30-2023	WMS	AI-14017	16625619 Line 3 / 2981		"105,413.34"	"105,413.34"			"105,413.34"		
+EA Houston	80008	Weatherford International	USD	11-30-2023	WMS	AI-14027	16625619 Line 4 / 2983		"4,182.26"	"4,182.26"			"4,182.26"		
+EA Houston	80008	Weatherford International	USD	11-30-2023	WMS	AI-14028	16630871 Line 3 / 2565		"9,733.36"	"9,733.36"			"9,733.36"		
+EA Houston	80008	Weatherford International	USD	12-08-2023	WMS	AI-14053	16600747-1		"161,663.45"	"161,663.45"			"161,663.45"		
+EA Houston	80008	Weatherford International	USD	12-08-2023	WMS	AI-14054	16633933 Line 1 /  298		"10,401.69"	"10,401.69"			"10,401.69"		
+EA Houston	80008	Weatherford International	USD	12-08-2023	WMS	AI-14057	16630871 Line 6 / 2565		"20,616.16"	"20,616.16"			"20,616.16"		
+EA Houston	80008	Weatherford International	USD	12-08-2023	HOU	AI-14058	16588911		206.08	206.08			206.08		
+EA Houston	80008	Weatherford International	USD	12-15-2023	HOU	AI-14079	16608721 Line 1 / 1156		61.69	61.69			61.69		
+EA Houston	80008	Weatherford International	USD	12-15-2023	HOU	AI-14080	16572086		"46,930.80"	"46,930.80"			"46,930.80"		
+EA Houston	80008	Weatherford International	USD	12-15-2023	HOU	AI-14081	16639482 Line 1 / 1315		828	828			828		
+EA Houston	80008	Weatherford International	USD	12-15-2023	WMS	AI-14082	16618110 Line 3 / 2191		"7,411.50"	"7,411.50"			"7,411.50"		
+EA Houston	80008	Weatherford International	USD	12-15-2023	WMS	AI-14083	16625615 Line 3 / 1729		936.25	936.25			936.25		
+EA Houston	80008	Weatherford International	USD	12-15-2023	WMS	AI-14084	16625619 Line 1 / 2983		"2,929.57"	"2,929.57"			"2,929.57"		
+EA Houston	80008	Weatherford International	USD	12-15-2023	WMS	AI-14085	16626073 Line 1 / 2631		692.33	692.33			692.33		
+EA Houston	80008	Weatherford International	USD	12-15-2023	WMS	AI-14086	16637814 Line 6 / 2771		"10,995.60"	"10,995.60"			"10,995.60"		
+EA Houston	80008	Weatherford International	USD	12-18-2023	WMS	AI-14096	16637135 Line 3 / 2944		"29,113.53"	"29,113.53"			"29,113.53"		
+EA Houston	80008	Weatherford International	USD	12-26-2023	HOU	AI-14122	16646274		189	189			189		
+EA Houston	80008	Weatherford International	USD	12-26-2023	WMS	AI-14123	16637135		"25,656.40"	"25,656.40"			"25,656.40"		
+EA Houston	80008	Weatherford International	USD	12-26-2023	WMS	AI-14124	16637814 Line 8 / 2771		"15,592.40"	"15,592.40"			"15,592.40"		
+EA Houston	80008	Weatherford International	USD	12-26-2023	WMS	AI-14125	16637047 Line 1 /17295		"9,634.02"	"9,634.02"			"9,634.02"		
+EA Houston	80008	Weatherford International	USD	12-26-2023	WMS	AI-14126	16641435 Line 1 / 2944		"2,314.98"	"2,314.98"			"2,314.98"		
+EA Houston	80008	Weatherford International	USD	12-26-2023	WMS	AI-14127	16644665 Line 1 / 2838		"5,304.00"	"5,304.00"			"5,304.00"		
+EA Houston	80008	Weatherford International	USD	12-20-2023	WMS	CD-14110	16540484- Line 5/ 2565		-172.76	-172.76			-172.76	8	
+EA Houston	80008	Weatherford International	USD	12-12-2023	HOU	CJ-185			"-6,819.59"	"-6,819.59"			"-6,819.59"	16	
+EA Houston	80008	Weatherford International	USD	12-12-2023	HOU	CJ-186			"-2,729.16"	"-2,729.16"			"-2,729.16"	16	
+EA Houston	80008	Weatherford International	USD	12-12-2023	HOU	CJ-187			"-5,648.13"	"-5,648.13"			"-5,648.13"	16	
+EA Houston	80008	Weatherford International	USD	12-12-2023	HOU	CJ-188			"-2,825.17"	"-2,825.17"			"-2,825.17"	16	
+EA Houston	80008	Weatherford International	USD	12-15-2023	HOU	CJ-190			"-1,977.50"	"-1,977.50"			"-1,977.50"	13	
+EA Houston	80009	K & B Industries	USD	10-26-2023	HOU	AI-13866	0193844-00		"7,426.73"	"7,426.73"			"7,426.73"	3	
+EA Houston	80009	K & B Industries	USD	11-06-2023	HOU	AI-13926	194330-00		"9,529.16"	"9,529.16"			"9,529.16"		
+EA Houston	80009	K & B Industries	USD	11-13-2023	HOU	AI-13964	194683-00		"70,882.00"	"70,882.00"			"70,882.00"		
+EA Houston	80009	K & B Industries	USD	11-16-2023	HOU	AI-13980	194887-00		780.86	780.86			780.86		
+EA Houston	80009	K & B Industries	USD	11-22-2023	HOU	AI-14000	195184-00		"1,275.00"	"1,275.00"			"1,275.00"		
+EA Houston	80009	K & B Industries	USD	12-08-2023	HOU	AI-14056	0195632 - 00		150.52	150.52			150.52		
+EA Houston	80009	K & B Industries	USD	12-21-2023	HOU	AI-14111	0196190-00		"4,713.39"	"4,713.39"			"4,713.39"		
+EA Houston	80010	D & L Oil Tools	USD	11-14-2023	HOU	AI-13970	2311452		"1,608.00"	"1,608.00"			"1,608.00"	14	
+EA Houston	80010	D & L Oil Tools	USD	11-14-2023	HOU	AI-13971	2311440		"2,177.25"	"2,177.25"			"2,177.25"	14	
+EA Houston	80010	D & L Oil Tools	USD	11-16-2023	HOU	AI-13981	2311453		"2,041.06"	"2,041.06"			"2,041.06"	12	
+EA Houston	80010	D & L Oil Tools	USD	11-28-2023	HOU	AI-14012	2311450		"3,970.00"	"3,970.00"			"3,970.00"		
+EA Houston	80010	D & L Oil Tools	USD	12-05-2023	HOU	AI-14036	2311274		"1,822.80"	"1,822.80"			"1,822.80"		
+EA Houston	80010	D & L Oil Tools	USD	12-05-2023	HOU	AI-14037	2311252		"1,735.22"	"1,735.22"			"1,735.22"		
+EA Houston	80010	D & L Oil Tools	USD	12-18-2023	HOU	AI-14092	2312249		"5,908.71"	"5,908.71"			"5,908.71"		
+EA Houston	80010	D & L Oil Tools	USD	12-21-2023	HOU	AI-14112	2311280		"3,556.96"	"3,556.96"			"3,556.96"		
+EA Houston	80015	Halliburton Energy Services	USD	10-09-2023	HOU	AI-13753	4517165888		655.5	655.5			655.5	20	
+EA Houston	80015	Halliburton Energy Services	USD	10-10-2023	HOU	AI-13762	4517170839		"4,387.00"	"4,387.00"			"4,387.00"	19	
+EA Houston	80015	Halliburton Energy Services	USD	10-13-2023	HOU	AI-13788	4517170854		"2,762.97"	"2,762.97"			"2,762.97"	16	
+EA Houston	80015	Halliburton Energy Services	USD	10-19-2023	HOU	AI-13818	4517181524		858	858			858	10	
+EA Houston	80015	Halliburton Energy Services	USD	10-19-2023	HOU	AI-13819	4517170857		"33,333.01"	"33,333.01"			"33,333.01"	10	
+EA Houston	80015	Halliburton Energy Services	USD	10-31-2023	HOU	AI-13892	4517208179		"5,242.73"	"5,242.73"			"5,242.73"		
+EA Houston	80015	Halliburton Energy Services	USD	11-13-2023	HOU	AI-13961	4517227047		"2,663.25"	"2,663.25"			"2,663.25"		
+EA Houston	80015	Halliburton Energy Services	USD	11-21-2023	HOU	AI-13993	4517187536		"2,552.10"	"2,552.10"			"2,552.10"		
+EA Houston	80015	Halliburton Energy Services	USD	11-28-2023	HOU	AI-14013	4517244453		655.5	655.5			655.5		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	02-25-2022	HOU	AI-10300			"5,019.00"	"5,019.00"			"5,019.00"	551	
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	07-29-2022	HOU	AI-11408			250	250			250	397	
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	12-02-2022	HOU	AI-12087			"1,688.70"	128.7			128.7	271	
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	09-06-2023	HOU	AI-13577	4512385354		"13,635.00"	"13,635.00"			"13,635.00"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	09-08-2023	HOU	AI-13594	4512410837		"27,270.00"	"27,270.00"			"27,270.00"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	09-14-2023	HOU	AI-13623	4512262540		535.84	535.84			535.84		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	09-25-2023	HOU	AI-13678	4512434433		"13,635.00"	"13,635.00"			"13,635.00"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	09-26-2023	HOU	AI-13680	4512262480		513.98	513.98			513.98		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	09-26-2023	HOU	AI-13681	4512262462		"1,300.21"	"1,300.21"			"1,300.21"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	10-03-2023	HOU	AI-13726	4512434433		"40,905.00"	"40,905.00"			"40,905.00"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	10-06-2023	HOU	AI-13748	4512444128		"7,272.00"	"7,272.00"			"7,272.00"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	10-10-2023	HOU	AI-13769	4512461836 (FOR FRT)		"13,635.00"	"13,635.00"			"13,635.00"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	10-25-2023	HOU	AI-13853	4512498364		"12,740.14"	"12,740.14"			"12,740.14"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	10-26-2023	HOU	AI-13867	4512504507		"18,436.94"	"18,436.94"			"18,436.94"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	10-31-2023	HOU	AI-13893	4512483414		"51,660.00"	"51,660.00"			"51,660.00"		
+EA Houston	80016	Baker Hughes Oilfield Operation	USD	10-31-2023	HOU	AI-13894	4512470132		"13,635.00"	"13,635.00"			"13,635.00"		
+EA Houston	80023	Benoit Premium Threading LLC	USD	10-24-2023	HOU	AI-13848	010043		"2,385.00"	"2,385.00"			"2,385.00"	35	
+EA Houston	80023	Benoit Premium Threading LLC	USD	11-30-2023	HOU	AI-14018	010331		"2,532.00"	"2,532.00"			"2,532.00"		
+EA Houston	80023	Benoit Premium Threading LLC	USD	12-05-2023	HOU	AI-14038	010371		"22,296.00"	"22,296.00"			"22,296.00"		
+EA Houston	80023	Benoit Premium Threading LLC	USD	12-26-2023	HOU	AI-14128	010566		900	900			900		
+EA Houston	80024	Blueline Mfg	USD	12-13-2023	HOU	AI-14067	129024		"91,491.25"	"91,491.25"			"91,491.25"		
+EA Houston	80024	Blueline Mfg	USD	12-14-2023	HOU	AI-14072	0129182		"1,406.90"	"1,406.90"			"1,406.90"		
+EA Houston	80024	Blueline Mfg	USD	12-14-2023	HOU	AI-14073	0129186		"1,074.61"	"1,074.61"			"1,074.61"		
+EA Houston	80024	Blueline Mfg	USD	12-26-2023	HOU	AI-14129	0129261		524.53	524.53			524.53		
+EA Houston	80026	Branton Tools LLC	USD	12-21-2023	HOU	AI-14113	19358		"24,980.00"	"24,980.00"			"24,980.00"		
+EA Houston	80028	Keystone Manufacturing	USD	11-14-2023	HOU	AI-13968	5516		530	315			315	14	
+EA Houston	80028	Keystone Manufacturing	USD	12-11-2023	HOU	AI-14060	5538		"2,245.00"	"2,245.00"			"2,245.00"		
+EA Houston	80030	Argos Oil Tools LLC	USD	11-28-2023	HOU	CJ-177			"-313,341.81"	"-313,341.81"			"-313,341.81"	30	
+EA Houston	80034	OEM Components	USD	11-16-2023	HOU	AI-13982	0071989-01		"4,320.00"	"4,320.00"			"4,320.00"	12	
+EA Houston	80034	OEM Components	USD	11-30-2023	HOU	AI-14019	0072014-00		"8,127.00"	"8,127.00"			"8,127.00"		
+EA Houston	80034	OEM Components	USD	11-30-2023	HOU	AI-14023	0072020-00		"1,410.00"	"1,410.00"			"1,410.00"		
+EA Houston	80034	OEM Components	USD	12-05-2023	HOU	AI-14039	0072039-00		945	945			945		
+EA Houston	80040	VanOil Completetion System	USD	12-15-2023	HOU	AI-14087	17812		"56,052.20"	"56,052.20"			"56,052.20"		
+EA Houston	80047	Superior Energy Services	USD	08-24-2023	HOU	AI-13518	00009739		"38,480.00"	"3,845.40"			"3,845.40"	96	
+EA Houston	80047	Superior Energy Services	USD	11-30-2023	HOU	AI-14029	00010834		"3,240.49"	"3,240.49"			"3,240.49"		
+EA Houston	80047	Superior Energy Services	USD	12-07-2023	HOU	AI-14044	PO00010908		"5,400.00"	"5,400.00"			"5,400.00"		
+EA Houston	80047	Superior Energy Services	USD	12-07-2023	HOU	AI-14045	PO00010896		"9,112.50"	"9,112.50"			"9,112.50"		
+EA Houston	80047	Superior Energy Services	USD	12-14-2023	HOU	AI-14074	PO00010896		"3,092.64"	"3,092.64"			"3,092.64"		
+EA Houston	80047	Superior Energy Services	USD	12-21-2023	HOU	AI-14114	PO00010896		"17,875.00"	"17,875.00"			"17,875.00"		
+EA Houston	80051	M & R Manufacturing LLC	USD	11-06-2023	MEX	AI-13922	23175		"2,050.00"	"2,050.00"			"2,050.00"	22	
+EA Houston	80051	M & R Manufacturing LLC	USD	11-07-2023	MEX	AI-13930	23151		375	375			375	21	
+EA Houston	80051	M & R Manufacturing LLC	USD	11-14-2023	MEX	AI-13967	23240		196	196			196	14	
+EA Houston	80052	Gretna Machine Shop	USD	10-17-2023	HOU	AI-13805	26992		230.22	230.22			230.22	42	
+EA Houston	80052	Gretna Machine Shop	USD	10-23-2023	HOU	AI-13845	27019		250.08	250.08			250.08	36	
+EA Houston	80054	Kajan Perfection	USD	10-27-2023	HOU	AI-13877	234074		"32,597.00"	"32,597.00"			"32,597.00"	32	
+EA Houston	80054	Kajan Perfection	USD	11-17-2023	HOU	AI-13985	234459		"2,378.70"	"2,378.70"			"2,378.70"	11	
+EA Houston	80061	HMC Instrument & Machine Works Ltd.	USD	11-08-2023	HOU	AI-13935	0053216 - 00		501.76	501.76			501.76	20	
+EA Houston	80062	Automatic Products Corporation	USD	11-22-2023	HOU	AI-13997	0022741 - 00		"1,950.05"	"1,950.05"			"1,950.05"	6	
+EA Houston	80062	Automatic Products Corporation	USD	11-22-2023	HOU	AI-13998	0022738 - 00		"1,950.05"	"1,950.05"			"1,950.05"	6	
+EA Houston	80065	Maximum Enterprises Inc.	USD	07-17-2023	HOU	CJ-109			-500	-500			-500	164	
+EA Houston	80068	Innovex Downhole Solutions	USD	11-30-2023	HOU	AI-14024	105043-00		396	396			396		
+EA Houston	80068	Innovex Downhole Solutions	USD	12-07-2023	HOU	AI-14046	105252-00		"2,486.00"	"2,486.00"			"2,486.00"		
+EA Houston	80068	Innovex Downhole Solutions	USD	12-07-2023	HOU	AI-14047	105234-00		"1,506.60"	"1,506.60"			"1,506.60"		
+EA Houston	80068	Innovex Downhole Solutions	USD	12-19-2023	HOU	AI-14102	106056-00		713.79	713.79			713.79		
+EA Houston	80068	Innovex Downhole Solutions	USD	12-27-2023	HOU	AI-14134	106244-00		"1,722.14"	"1,722.14"			"1,722.14"		
+EA Houston	80070	Liner Shoes Inc	USD	12-06-2023	HOU	AI-14041	37321		724.8	724.8			724.8		
+EA Houston	80073	Qtec Machining	USD	08-25-2023	HOU	AI-13530	15541		"5,644.84"	"5,644.84"			"5,644.84"	95	
+EA Houston	80077	Packer Plus Energy Services Inc	USD	11-02-2023	HOU	AI-13912	POC202051		"33,030.00"	"32,576.34"			"32,576.34"	26	
+EA Houston	80077	Packer Plus Energy Services Inc	USD	11-06-2023	HOU	AI-13923	POC203245		526.17	526.17			526.17	22	
+EA Houston	80077	Packer Plus Energy Services Inc	USD	11-08-2023	HOU	AI-13936	POC203247		171.99	171.99			171.99	20	
+EA Houston	80077	Packer Plus Energy Services Inc	USD	12-11-2023	HOU	AI-14061	POC203632		513.85	513.85			513.85		
+EA Houston	80077	Packer Plus Energy Services Inc	USD	12-11-2023	HOU	AI-14062	POC203628		729.54	729.54			729.54		
+EA Houston	80077	Packer Plus Energy Services Inc	USD	12-21-2023	HOU	AI-14115	POC203634		131.85	131.85			131.85		
+EA Houston	80077	Packer Plus Energy Services Inc	USD	12-26-2023	HOU	AI-14133	POC203636		397.25	397.25			397.25		
+EA Houston	80077	Packer Plus Energy Services Inc	USD	12-21-2023	HOU	CJ-193			"-33,728.16"	"-33,728.16"			"-33,728.16"	7	
+EA Houston	80078	Baker Oil tools	USD	12-14-2020	HOU	AI-107333			246.8	246.8			246.8	989	
+EA Houston	80078	Baker Oil tools	USD	12-31-2020	HOU	AI-107369			"2,737.63"	"2,737.63"			"2,737.63"	972	
+EA Houston	80078	Baker Oil tools	USD	05-12-2021	HOU	AI-21601440			50	50			50	840	
+EA Houston	80078	Baker Oil tools	USD	05-13-2021	HOU	AI-21601464			602.27	602.27			602.27	839	
+EA Houston	80078	Baker Oil tools	USD	05-18-2021	HOU	AI-21601510			50	50			50	834	
+EA Houston	80078	Baker Oil tools	USD	07-20-2021	HOU	AI-21602020			214.67	214.67			214.67	771	
+EA Houston	80078	Baker Oil tools	USD	07-27-2021	HOU	AI-21602072			484.64	484.64			484.64	764	
+EA Houston	80078	Baker Oil tools	USD	08-25-2023	HOU	AI-13531	4512469617		500	500			500	5	
+EA Houston	80078	Baker Oil tools	USD	11-17-2023	HOU	AI-13986	4512487238		543.37	543.37			543.37		
+EA Houston	80078	Baker Oil tools	USD	11-17-2023	HOU	AI-13987	4512489022		505.1	505.1			505.1		
+EA Houston	80078	Baker Oil tools	USD	12-07-2023	HOU	AI-14048	4512487049		410.04	410.04			410.04		
+EA Houston	80078	Baker Oil tools	USD	12-12-2023	HOU	AI-14064	4512477826		"10,708.55"	"10,708.55"			"10,708.55"		
+EA Houston	80078	Baker Oil tools	USD	12-27-2023	HOU	AI-14135	4512613579		"2,152.97"	"2,152.97"			"2,152.97"		
+EA Houston	80082	Allied Alloys LP	USD	09-21-2023	HOU	AI-13658	057685		"317,238.40"	"1,422.02"			"1,422.02"	68	
+EA Houston	80082	Allied Alloys LP	USD	12-01-2023	HOU	CJ-179			"-2,240.89"	"-1,449.00"			"-1,449.00"	27	
+EA Houston	80086	"K & J Precision Machining, LLC"	USD	11-07-2023	HOU	AI-13931	01757		"15,300.00"	"15,300.00"			"15,300.00"	21	
+EA Houston	80086	"K & J Precision Machining, LLC"	USD	11-27-2023	HOU	AI-14004	01767		"5,202.00"	"5,202.00"			"5,202.00"	1	
+EA Houston	80112	Dyna-Drill Technologies LLC	USD	10-20-2023	MEX	AI-13836	76402		254	254			254		
+EA Houston	80112	Dyna-Drill Technologies LLC	USD	11-20-2023	MEX	AI-13991	76644-1		233.75	233.75			233.75		
+EA Houston	80112	Dyna-Drill Technologies LLC	USD	11-20-2023	MEX	AI-13992	76644-2		77.85	77.85			77.85		
+EA Houston	80117	Steel Alloys and Services	USD	11-16-2023	HOU	AI-13983	PO23463		"41,063.00"	"41,063.00"			"41,063.00"	12	
+EA Houston	80117	Steel Alloys and Services	USD	11-28-2023	HOU	AI-14014	PO23673		"41,830.16"	"41,830.16"			"41,830.16"		
+EA Houston	80117	Steel Alloys and Services	USD	11-28-2023	HOU	AI-14015	PO23616		"16,533.25"	"16,533.25"			"16,533.25"		
+EA Houston	80117	Steel Alloys and Services	USD	12-06-2023	HOU	AI-14042	PO23641		"5,325.19"	"5,325.19"			"5,325.19"		
+EA Houston	80117	Steel Alloys and Services	USD	12-19-2023	HOU	AI-14104	PO24049		"4,473.91"	"4,473.91"			"4,473.91"		
+EA Houston	80117	Steel Alloys and Services	USD	12-21-2023	HOU	AI-14116	PO23924		"16,190.02"	"16,190.02"			"16,190.02"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	09-15-2023	MEX	AI-13634	4792127006-1		"36,715.05"	"36,715.05"			"36,715.05"	34	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	09-20-2023	MEX	AI-13653	4791715781-1		"446,234.16"	"446,234.16"			"446,234.16"	29	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-03-2023	MEX	AI-13720	4792163038		"2,265.73"	"2,265.73"			"2,265.73"	16	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-03-2023	MEX	AI-13721	4792136314		"38,196.69"	"38,196.69"			"38,196.69"	16	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-03-2023	MEX	AI-13722	4792102747		"4,859.40"	"4,859.40"			"4,859.40"	16	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-03-2023	MEX	AI-13723	4792159960		"1,129.72"	"1,129.72"			"1,129.72"	16	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-03-2023	MEX	AI-13724	4792000782-2		"3,191.56"	"3,191.56"			"3,191.56"	16	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-03-2023	MEX	AI-13725	4792139272		"2,216.04"	"2,216.04"			"2,216.04"	16	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-06-2023	MEX	AI-13750	4792127006-2		"17,582.14"	"17,582.14"			"17,582.14"	13	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-06-2023	MEX	AI-13751	4792127006-3		"28,201.32"	"28,201.32"			"28,201.32"	13	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-12-2023	MEX	AI-13777	4792098190		"15,107.85"	"15,107.85"			"15,107.85"	7	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-12-2023	MEX	AI-13778	4792139273		151.2	151.2			151.2	7	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-12-2023	MEX	AI-13779	4792046655-1		"1,374.74"	"1,374.74"			"1,374.74"	7	
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-25-2023	MEX	AI-13854	4792197848		"9,649.19"	"9,649.19"			"9,649.19"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-25-2023	MEX	AI-13855	4792184776		"3,499.95"	"3,499.95"			"3,499.95"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-25-2023	MEX	AI-13856	4792142697		696.38	696.38			696.38		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-26-2023	MEX	AI-13868	4792046655-2		"3,862.06"	"3,862.06"			"3,862.06"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-31-2023	MEX	AI-13884	4792159656		"16,987.44"	"16,987.44"			"16,987.44"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	10-31-2023	MEX	AI-13885	4792046655-8		"10,928.89"	"10,928.89"			"10,928.89"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	11-14-2023	MEX	AI-13966	4792063388-4		359.35	359.35			359.35		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	11-15-2023	MEX	AI-13976	4792298561		511.22	511.22			511.22		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	11-27-2023	MEX	AI-14005	4792063388-2		"1,314.63"	"1,314.63"			"1,314.63"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	11-27-2023	MEX	AI-14006	4792197848_2		"3,596.88"	"3,596.88"			"3,596.88"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	12-07-2023	MEX	AI-14049	4792384863		"6,422.76"	"6,422.76"			"6,422.76"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	12-14-2023	MEX	AI-14077	4792046655-5		"78,696.24"	"78,696.24"			"78,696.24"		
+EA Houston	80121	Reservoir Product Mfg (S)Pte	USD	12-14-2023	MEX	AI-14078	4792046655-7		"74,060.78"	"74,060.78"			"74,060.78"		
+EA Houston	80125	"Marubeni-Itochu Tubulars Ameria,Inc"	USD	11-27-2023	HOU	DA-14			"13,600.00"	"13,600.00"			"13,600.00"	31	
+EA Houston	80129	VALLOUREC OIL & GAS MEXICO S.A. DE	USD	11-13-2023	MEX	AI-13963	8082		"37,778.70"	"37,778.70"			"37,778.70"	15	
+EA Houston	80138	Plainsman Mfg. Inc	USD	12-04-2023	HOU	AI-14035	846930		"1,425.00"	"1,425.00"			"1,425.00"		
+EA Houston	80143	"Forum Energy Technologies, Inc"	USD	10-11-2023	HOU	AI-13772	PO051866		933.72	933.72			933.72	48	
+EA Houston	80143	"Forum Energy Technologies, Inc"	USD	10-16-2023	HOU	AI-13799	PO051883		"4,779.00"	"4,779.00"			"4,779.00"	43	
+EA Houston	80143	"Forum Energy Technologies, Inc"	USD	10-18-2023	HOU	AI-13815	PO051919		"2,158.60"	"2,158.60"			"2,158.60"	41	
+EA Houston	80143	"Forum Energy Technologies, Inc"	USD	10-31-2023	HOU	AI-13899	PO051982		500.65	500.65			500.65	28	
+EA Houston	80143	"Forum Energy Technologies, Inc"	USD	11-08-2023	HOU	AI-13938	PO052011		"1,252.10"	"1,252.10"			"1,252.10"	20	
+EA Houston	80156	B&B Iron And Metal Co Inc	USD	09-11-2023	HOU	CJ-135			-430.79	-430.79			-430.79	108	
+EA Houston	80157	Cajun Threads & Machine LLC	USD	10-04-2023	HOU	AI-13730	11949		"1,720.40"	"1,720.40"			"1,720.40"	55	
+EA Houston	80157	Cajun Threads & Machine LLC	USD	10-10-2023	HOU	AI-13768	11958		860.2	860.2			860.2	49	
+EA Houston	80158	MetalCraft Services LLc	USD	03-15-2023	HOU	CJ-45			"-1,856.30"	"-1,856.30"			"-1,856.30"	288	
+EA Houston	80158	MetalCraft Services LLc	USD	06-14-2023	HOU	CJ-90			-250	-250			-250	197	
+EA Houston	80158	MetalCraft Services LLc	USD	06-22-2023	HOU	CJ-94			"-11,904.40"	"-11,904.40"			"-11,904.40"	189	
+EA Houston	80165	TNN Machining Company LLC	USD	09-22-2023	HOU	AI-13670	PUR-2032543		"3,020.00"	"3,020.00"			"3,020.00"	67	
+EA Houston	80166	"National Oilwell Varco, L.P."	USD	12-26-2023	HOU	AI-14130	1106368:0		"9,120.00"	"9,120.00"			"9,120.00"		
+EA Houston	80166	"National Oilwell Varco, L.P."	USD	12-26-2023	HOU	AI-14131	1102864-0		580	580			580		
+EA Houston	80173	"A9 Manufacturing, Inc."	USD	10-19-2023	HOU	AI-13823	6401		200	200			200	40	
+EA Houston	80173	"A9 Manufacturing, Inc."	USD	11-08-2023	HOU	AI-13939	6464		"1,150.00"	"1,150.00"			"1,150.00"	20	
+EA Houston	80173	"A9 Manufacturing, Inc."	USD	12-13-2023	HOU	AI-14066	6587		"1,185.00"	"1,185.00"			"1,185.00"		
+EA Houston	80173	"A9 Manufacturing, Inc."	USD	12-26-2023	HOU	AI-14132	6610		"1,485.00"	"1,485.00"			"1,485.00"		
+EA Houston	80204	Precision Services Machine Shop	USD	12-05-2023	HOU	AI-14040	0959 JA		500.04	500.04			500.04		
+EA Houston	80204	Precision Services Machine Shop	USD	12-04-2023	HOU	CJ-180			-675.04	-675.04			-675.04	24	
+EA Houston	80211	"Exim, Inc"	USD	07-14-2023	HOU	AI-13305	SCRAP SUPER		"10,903.94"	"10,903.94"			"10,903.94"	137	
+EA Houston	80211	"Exim, Inc"	USD	09-12-2023	HOU	AI-13616	Scrap 420M		"2,226.60"	"2,226.60"			"2,226.60"	77	
+EA Houston	80211	"Exim, Inc"	USD	06-09-2023	HOU	CJ-86			"-52,147.51"	"-52,147.51"			"-52,147.51"	202	
+EA Houston	80211	"Exim, Inc"	USD	09-01-2023	HOU	CJ-133			"-14,721.12"	"-14,721.12"			"-14,721.12"	118	
+EA Houston	80211	"Exim, Inc"	USD	09-26-2023	HOU	CJ-145			"-3,028.83"	"-3,028.83"			"-3,028.83"	93	
+EA Houston	80212	LEGACY TUBULAR LLC	USD	12-18-2023	HOU	AI-14093	25521		"1,000.00"	"1,000.00"			"1,000.00"		
+EA Houston	80215	Keystone Engineering Co LTD	USD	11-08-2023	HOU	AI-13940	042928-00		175	175			175	20	
+EA Houston	80215	Keystone Engineering Co LTD	USD	12-01-2023	HOU	AI-14034	042987-00		"37,443.12"	"37,443.12"			"37,443.12"		
+EA Houston	80215	Keystone Engineering Co LTD	USD	12-07-2023	HOU	AI-14050	043003-00		"28,080.00"	"28,080.00"			"28,080.00"		
+EA Houston	80219	"SIGMA TUBE & BAR, LLC"	USD	10-17-2023	HOU	CJ-156			-450	-450			-450	72	
+EA Houston	80222	"S & W MACHINE SHOP, INC."	USD	12-21-2023	HOU	AI-14117	57223		"6,360.58"	"6,360.58"			"6,360.58"		
+EA Houston	80230	Weatherford Canada Ltd	USD	11-23-2023	WMS	AI-14002	16623364		"64,624.74"	"64,624.74"			"64,624.74"	5	
+EA Houston	80230	Weatherford Canada Ltd	USD	12-08-2023	WMS	AI-14052	16633972		"28,060.92"	"28,060.92"			"28,060.92"		
+EA Houston	80230	Weatherford Canada Ltd	USD	12-13-2023	WMS	AI-14069	16639452		"60,889.49"	"60,889.49"			"60,889.49"		
+EA Houston	80231	"AMTEX MACHINE PRODUCTS, INC."	USD	12-08-2023	HOU	AI-14055	6309		"4,352.31"	"4,352.31"			"4,352.31"		
+EA Houston	80231	"AMTEX MACHINE PRODUCTS, INC."	USD	12-18-2023	HOU	CD-14090			-511	-511			-511	10	
+EA Houston	80235	"VAM USA, LLC"	USD	12-13-2023	HOU	AI-14068	1187283		"2,843.55"	"2,843.55"			"2,843.55"		
+EA Houston	80243	Price Machine Shop	USD	11-22-2023	HOU	AI-13999	6113		843.8	843.8			843.8	6	
+EA Houston	80243	Price Machine Shop	USD	12-18-2023	HOU	AI-14094	6128		"1,164.90"	"1,164.90"			"1,164.90"		
+EA Houston	80243	Price Machine Shop	USD	12-21-2023	HOU	AI-14118	6134		"1,696.15"	"1,696.15"			"1,696.15"		
+EA Houston	80245	"CITADEL CASING SOLUTIONS, LLC"	USD	12-18-2023	HOU	AI-14091	0025258 - 00		"1,598.00"	"1,598.00"			"1,598.00"		
+EA Houston	80245	"CITADEL CASING SOLUTIONS, LLC"	USD	12-21-2023	HOU	AI-14119	25300-00		260.02	260.02			260.02		
+EA Houston	80245	"CITADEL CASING SOLUTIONS, LLC"	USD	12-21-2023	HOU	AI-14120	0025305-00		"7,979.20"	"7,979.20"			"7,979.20"		
+EA Houston	80248	"Frederick's Machine & Tool Shop,Inc"	USD	11-02-2023	HOU	AI-13913	103372-00		"3,878.40"	"3,878.40"			"3,878.40"	26	
+EA Houston	80248	"Frederick's Machine & Tool Shop,Inc"	USD	11-09-2023	HOU	AI-13948	0103440-00		520	520			520	19	
+EA Houston	80252	United Machine Works	USD	10-16-2023	HOU	AI-13800	135978		"7,653.08"	"7,653.08"			"7,653.08"	43	
+EA Houston	80260	"Tejas Research & Engineering, LLC"	USD	10-16-2023	HOU	AI-13801	TRE11605		"36,655.00"	"20,000.00"			"20,000.00"	43	
+EA Houston	80260	"Tejas Research & Engineering, LLC"	USD	10-27-2023	HOU	AI-13879	TRE11662		"3,420.70"	"3,420.70"			"3,420.70"	32	
+EA Houston	80261	"Appalachian Pipe Distributors, LLC"	USD	11-30-2023	HOU	AI-14022	1393		"136,161.02"	"75,000.00"			"75,000.00"		
+EA Houston	80264	"PACIFIC SENSOR, LLC"	USD	10-25-2023	HOU	AI-13859	2719		765.63	765.63			765.63	34	
+EA Houston	80265	"Nitor Metal, S.A."	USD	12-21-2023	HOU	CJ-194			"-2,544.54"	"-2,544.54"			"-2,544.54"	7	
+EA Houston	80267	Federal Carbide Company	USD	12-14-2023	HOU	AI-14076	61268		748.62	748.62			748.62		
+EA Houston	80270	"V&C Quality Machine Shop, Inc."	USD	12-18-2023	HOU	AI-14095	11654		"3,494.82"	"3,494.82"			"3,494.82"		
+EA Houston	80273	Sterling Machinery	USD	12-15-2023	HOU	AI-14089			"2,906.75"	"2,906.75"			"2,906.75"		

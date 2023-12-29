@@ -1,0 +1,195 @@
+2023-12-14 20:47:04,697 [INFO] - Execution Started
+2023-12-14 20:47:07,105 [INFO] - Inside remove_existing_files function
+2023-12-14 20:48:23,254 [INFO] - Execution Started
+2023-12-14 20:48:25,466 [INFO] - Inside remove_existing_files function
+2023-12-14 20:50:48,854 [INFO] - Execution Started
+2023-12-14 20:50:48,855 [INFO] - Inside remove_existing_files function
+2023-12-14 20:57:24,657 [INFO] - Execution Started
+2023-12-14 20:57:24,657 [INFO] - Inside remove_existing_files function
+2023-12-14 21:00:17,913 [INFO] - files succesfully removed from folder :::: K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS US REPORT\Input
+2023-12-14 21:00:19,607 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2023-12-14 21:00:19,607 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2023-12-14 21:00:19,607 [INFO] - Setting use_openssl_only mode to False
+2023-12-14 21:00:21,975 [INFO] - query: [SELECT 1]
+2023-12-14 21:00:22,234 [INFO] - query execution done
+2023-12-14 21:00:22,234 [INFO] - Number of results in first chunk: 1
+2023-12-14 21:00:22,236 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2023-12-14 21:00:22,563 [INFO] - query execution done
+2023-12-14 21:00:22,564 [INFO] - Number of results in first chunk: 1
+2023-12-14 21:00:22,565 [INFO] - closed
+2023-12-14 21:00:22,798 [INFO] - No async queries seem to be running, deleting session
+2023-12-14 21:01:45,343 [INFO] - Process completed
+2023-12-15 14:55:41,843 [INFO] - Execution Started
+2023-12-15 14:55:44,282 [INFO] - Inside remove_existing_files function
+2023-12-15 15:15:31,261 [INFO] - Execution Started
+2023-12-15 15:15:31,264 [INFO] - Inside remove_existing_files function
+2023-12-15 15:21:02,233 [INFO] - Execution Started
+2023-12-15 15:21:02,235 [INFO] - Inside remove_existing_files function
+2023-12-15 15:27:06,356 [INFO] - Execution Started
+2023-12-15 15:27:06,356 [INFO] - Inside remove_existing_files function
+2023-12-15 15:33:34,310 [INFO] - Execution Started
+2023-12-15 15:33:34,311 [INFO] - Inside remove_existing_files function
+2023-12-15 15:43:04,504 [INFO] - Execution Started
+2023-12-15 15:43:04,505 [INFO] - Inside remove_existing_files function
+2023-12-15 15:43:24,057 [INFO] - Exception caught in xlOpner :(-2147352570, 'Unknown name.', None, None)
+2023-12-15 15:43:24,057 [INFO] - could not open workbook: K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS US REPORT\Input\LUS_usng_arropi_0000065128_20231213140207578_35265.xls
+2023-12-15 15:43:26,595 [ERROR] - (-2147352570, 'Unknown name.', None, None)
+Traceback (most recent call last):
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\xlwings\_xlwindows.py", line 199, in __getattr__
+    v = getattr(self._inner, item)
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\win32com\client\__init__.py", line 580, in __getattr__
+    raise AttributeError(
+AttributeError: '<win32com.gen_py.Microsoft Excel 16.0 Object Library.ProtectedViewWindow instance at 0x2538753941024>' object has no attribute 'Application'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\US_eags_report.py", line 642, in eags_US_report_runner
+    raise e
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\US_eags_report.py", line 639, in eags_US_report_runner
+    raw_wb = xlOpner(raw_file)
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\US_eags_report.py", line 30, in xlOpner
+    raise e
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\US_eags_report.py", line 26, in xlOpner
+    raise e
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\US_eags_report.py", line 20, in xlOpner
+    input_wb = xw.Book(inputFile, update_links=False)
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\xlwings\main.py", line 913, in __init__
+    for wb in app.books:
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\xlwings\main.py", line 519, in books
+    return Books(impl=self.impl.books)
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\xlwings\_xlwindows.py", line 691, in books
+    return Books(xl=self.xl.Workbooks, app=self)
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\xlwings\_xlwindows.py", line 578, in xl
+    self._xl = get_xl_app_from_hwnd(self._hwnd)
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\xlwings\_xlwindows.py", line 324, in get_xl_app_from_hwnd
+    return disp.Application
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\xlwings\_xlwindows.py", line 221, in __getattr__
+    self._oleobj_.GetIDsOfNames(0, item)
+pywintypes.com_error: (-2147352570, 'Unknown name.', None, None)
+2023-12-15 15:43:47,999 [INFO] - Execution Started
+2023-12-15 15:43:48,000 [INFO] - Inside remove_existing_files function
+2023-12-15 16:02:20,134 [INFO] - Execution Started
+2023-12-15 16:02:20,134 [INFO] - Inside remove_existing_files function
+2023-12-15 20:36:34,651 [INFO] - Execution Started
+2023-12-15 20:36:34,652 [INFO] - Inside remove_existing_files function
+2023-12-15 20:46:05,935 [INFO] - files succesfully removed from folder :::: K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS US REPORT\Input
+2023-12-15 20:46:07,625 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2023-12-15 20:46:07,625 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2023-12-15 20:46:07,625 [INFO] - Setting use_openssl_only mode to False
+2023-12-15 20:46:09,239 [INFO] - query: [SELECT 1]
+2023-12-15 20:46:09,514 [INFO] - query execution done
+2023-12-15 20:46:09,515 [INFO] - Number of results in first chunk: 1
+2023-12-15 20:46:09,517 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2023-12-15 20:46:09,766 [INFO] - query execution done
+2023-12-15 20:46:09,766 [INFO] - Number of results in first chunk: 1
+2023-12-15 20:46:09,769 [INFO] - closed
+2023-12-15 20:46:09,999 [INFO] - No async queries seem to be running, deleting session
+2023-12-15 20:48:23,252 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2023-12-15 20:48:23,253 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2023-12-15 20:48:25,032 [INFO] - query: [SELECT 1]
+2023-12-15 20:48:25,282 [INFO] - query execution done
+2023-12-15 20:48:25,282 [INFO] - Number of results in first chunk: 1
+2023-12-15 20:48:25,284 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2023-12-15 20:48:25,615 [INFO] - query execution done
+2023-12-15 20:48:25,615 [INFO] - Number of results in first chunk: 1
+2023-12-15 20:48:25,618 [INFO] - closed
+2023-12-15 20:48:25,846 [INFO] - No async queries seem to be running, deleting session
+2023-12-15 20:51:51,738 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2023-12-15 20:51:51,738 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2023-12-15 20:51:53,566 [INFO] - query: [SELECT 1]
+2023-12-15 20:51:53,830 [INFO] - query execution done
+2023-12-15 20:51:53,831 [INFO] - Number of results in first chunk: 1
+2023-12-15 20:51:53,832 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2023-12-15 20:51:54,338 [INFO] - query execution done
+2023-12-15 20:51:54,338 [INFO] - Number of results in first chunk: 1
+2023-12-15 20:51:54,341 [INFO] - closed
+2023-12-15 20:51:54,780 [INFO] - No async queries seem to be running, deleting session
+2023-12-18 14:11:19,590 [INFO] - Execution Started
+2023-12-18 14:11:19,591 [INFO] - Inside remove_existing_files function
+2023-12-18 15:06:46,700 [INFO] - Execution Started
+2023-12-18 15:06:46,701 [INFO] - Inside remove_existing_files function
+2023-12-18 15:20:37,658 [INFO] - Execution Started
+2023-12-18 15:20:37,660 [INFO] - Inside remove_existing_files function
+2023-12-18 15:25:25,870 [INFO] - Execution Started
+2023-12-18 15:25:25,871 [INFO] - Inside remove_existing_files function
+2023-12-18 15:29:26,510 [INFO] - Execution Started
+2023-12-18 15:29:26,510 [INFO] - Inside remove_existing_files function
+2023-12-18 15:32:29,731 [INFO] - Execution Started
+2023-12-18 15:32:29,732 [INFO] - Inside remove_existing_files function
+2023-12-18 15:38:34,554 [INFO] - Execution Started
+2023-12-18 15:38:34,555 [INFO] - Inside remove_existing_files function
+2023-12-18 15:41:23,420 [INFO] - Execution Started
+2023-12-18 15:41:23,421 [INFO] - Inside remove_existing_files function
+2023-12-18 15:59:43,918 [INFO] - Execution Started
+2023-12-18 15:59:43,919 [INFO] - Inside remove_existing_files function
+2023-12-18 16:10:01,719 [INFO] - Execution Started
+2023-12-18 16:10:01,721 [INFO] - Inside remove_existing_files function
+2023-12-18 19:43:29,958 [INFO] - Execution Started
+2023-12-18 19:43:29,959 [INFO] - Inside remove_existing_files function
+2023-12-18 19:48:05,817 [INFO] - Execution Started
+2023-12-18 19:48:05,818 [INFO] - Inside remove_existing_files function
+2023-12-18 19:51:47,226 [INFO] - files succesfully removed from folder :::: K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS US REPORT\Input
+2023-12-18 19:51:47,268 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2023-12-18 19:51:47,268 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2023-12-18 19:51:47,268 [INFO] - Setting use_openssl_only mode to False
+2023-12-18 19:51:48,918 [INFO] - query: [SELECT 1]
+2023-12-18 19:51:49,171 [INFO] - query execution done
+2023-12-18 19:51:49,172 [INFO] - Number of results in first chunk: 1
+2023-12-18 19:51:49,176 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2023-12-18 19:51:49,429 [INFO] - query execution done
+2023-12-18 19:51:49,429 [INFO] - Number of results in first chunk: 1
+2023-12-18 19:51:49,432 [INFO] - closed
+2023-12-18 19:51:49,672 [INFO] - No async queries seem to be running, deleting session
+2023-12-18 19:52:16,942 [INFO] - Process completed
+2023-12-19 11:57:58,320 [INFO] - Execution Started
+2023-12-19 11:57:58,321 [INFO] - Inside remove_existing_files function
+2023-12-19 20:36:56,441 [INFO] - Execution Started
+2023-12-19 20:36:56,443 [INFO] - Inside remove_existing_files function
+2023-12-19 20:40:07,325 [INFO] - files succesfully removed from folder :::: K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS US REPORT\Input
+2023-12-19 20:40:07,369 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2023-12-19 20:40:07,369 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2023-12-19 20:40:07,370 [INFO] - Setting use_openssl_only mode to False
+2023-12-19 20:40:08,980 [INFO] - query: [SELECT 1]
+2023-12-19 20:40:09,245 [INFO] - query execution done
+2023-12-19 20:40:09,245 [INFO] - Number of results in first chunk: 1
+2023-12-19 20:40:09,247 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2023-12-19 20:40:09,509 [INFO] - query execution done
+2023-12-19 20:40:09,510 [INFO] - Number of results in first chunk: 1
+2023-12-19 20:40:09,513 [INFO] - closed
+2023-12-19 20:40:09,741 [INFO] - No async queries seem to be running, deleting session
+2023-12-19 20:40:33,220 [INFO] - Process completed
+2023-12-22 20:42:59,359 [INFO] - Execution Started
+2023-12-22 20:42:59,361 [INFO] - Inside remove_existing_files function
+2023-12-22 20:47:29,393 [INFO] - files succesfully removed from folder :::: K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS US REPORT\Input
+2023-12-22 20:47:29,437 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2023-12-22 20:47:29,437 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2023-12-22 20:47:29,438 [INFO] - Setting use_openssl_only mode to False
+2023-12-22 20:47:31,357 [INFO] - query: [SELECT 1]
+2023-12-22 20:47:31,621 [INFO] - query execution done
+2023-12-22 20:47:31,622 [INFO] - Number of results in first chunk: 1
+2023-12-22 20:47:31,624 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2023-12-22 20:47:32,753 [INFO] - query execution done
+2023-12-22 20:47:32,754 [INFO] - Number of results in first chunk: 1
+2023-12-22 20:47:32,758 [INFO] - closed
+2023-12-22 20:47:33,000 [INFO] - No async queries seem to be running, deleting session
+2023-12-22 20:48:00,212 [INFO] - Process completed
+2023-12-26 19:48:47,859 [INFO] - Execution Started
+2023-12-26 19:48:47,860 [INFO] - Inside remove_existing_files function
+2023-12-26 19:51:11,022 [INFO] - files succesfully removed from folder :::: K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS US REPORT\Input
+2023-12-26 19:51:11,066 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2023-12-26 19:51:11,067 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2023-12-26 19:51:11,067 [INFO] - Setting use_openssl_only mode to False
+2023-12-26 19:51:13,831 [INFO] - query: [SELECT 1]
+2023-12-26 19:51:14,151 [INFO] - query execution done
+2023-12-26 19:51:14,152 [INFO] - Number of results in first chunk: 1
+2023-12-26 19:51:14,155 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2023-12-26 19:51:14,592 [INFO] - query execution done
+2023-12-26 19:51:14,593 [INFO] - Number of results in first chunk: 1
+2023-12-26 19:51:14,596 [INFO] - closed
+2023-12-26 19:51:14,819 [INFO] - No async queries seem to be running, deleting session
+2023-12-26 19:51:43,827 [INFO] - Process completed
+2023-12-29 13:40:57,672 [INFO] - Execution Started
+2023-12-29 13:40:57,674 [INFO] - Inside remove_existing_files function
+2023-12-29 13:42:34,443 [INFO] - Execution Started
+2023-12-29 13:42:36,536 [INFO] - Inside remove_existing_files function

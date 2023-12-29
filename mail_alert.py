@@ -10,8 +10,8 @@ from email.mime.image import MIMEImage
 
 from bu_alerts import __version__
 
-__author__ = "yashn.jain"
-__copyright__ = "yashn.jain"
+__author__ = "deep.durugkar"
+__copyright__ = "deep.durugkar"
 __license__ = "mit"
 
 def send_mail(
@@ -101,4 +101,4 @@ def send_mail(
         return done
 
 if __name__ == "__main__":
-    send_mail(receiver_email='yashn.jain@biourja.com',mail_subject='test',mail_body='')
+    send_mail(receiver_email='deep.durugkar@biourja.com',mail_subject='test',mail_body='')
