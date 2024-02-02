@@ -245,17 +245,17 @@ def proceesing_report(template_wb,raw_wb,compare_wb,drive,locations_list,job_nam
             Eags_UK_sheet.api.AutoFilterMode = False
             last_row = Eags_UK_sheet.range(f'A'+ str(Eags_UK_sheet.cells.last_cell.row)).end('up').row
 
-            for i in range(4,last_row+1):
-                a=int(Eags_UK_sheet.range(F"G{i}").value)
-                b=int(Eags_UK_sheet.range(F"H{i}").value)
-                if b==-a and b!=0 and a!=0:
-                    print("exception found ")
-                    Eags_UK_sheet.range(f'{i}').copy()
-                    Eags_UK_sheet.range(f'{last_row+6}').paste()
-                    Eags_UK_sheet.range(f'{i}').delete()
-                else:
-                    print('continue')
-                    continue
+            # for i in range(4,last_row+1):
+            #     a=int(Eags_UK_sheet.range(F"G{i}").value)
+            #     b=int(Eags_UK_sheet.range(F"H{i}").value)
+            #     if b==-a and b!=0 and a!=0:
+            #         print("exception found ")
+            #         Eags_UK_sheet.range(f'{i}').copy()
+            #         Eags_UK_sheet.range(f'{last_row+6}').paste()
+            #         Eags_UK_sheet.range(f'{i}').delete()
+            #     else:
+            #         print('continue')
+            #         continue
 
             print("proceess completed for xcel")
 

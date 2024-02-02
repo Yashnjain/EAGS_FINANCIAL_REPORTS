@@ -338,3 +338,87 @@ TypeError: int() argument must be a string, a bytes-like object or a number, not
 2023-12-29 13:50:28,078 [INFO] - Inside remove_existing_files function
 2023-12-29 13:57:44,607 [INFO] - Execution Started
 2023-12-29 13:57:44,607 [INFO] - Inside remove_existing_files function
+2023-12-29 18:47:55,333 [INFO] - Execution Started
+2023-12-29 18:47:55,334 [INFO] - Inside remove_existing_files function
+2023-12-29 18:51:00,048 [INFO] - Execution Started
+2023-12-29 18:51:00,050 [INFO] - Inside remove_existing_files function
+2023-12-29 18:51:03,552 [INFO] - Existing files removed successfully
+2024-01-02 19:39:52,280 [INFO] - Execution Started
+2024-01-02 19:39:52,281 [INFO] - Inside remove_existing_files function
+2024-01-02 19:49:13,874 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2024-01-02 19:49:13,874 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-01-02 19:49:13,874 [INFO] - Setting use_openssl_only mode to False
+2024-01-02 19:49:15,692 [INFO] - query: [SELECT 1]
+2024-01-02 19:49:15,984 [INFO] - query execution done
+2024-01-02 19:49:15,985 [INFO] - Number of results in first chunk: 1
+2024-01-02 19:49:15,988 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2024-01-02 19:49:16,289 [INFO] - query execution done
+2024-01-02 19:49:16,289 [INFO] - Number of results in first chunk: 1
+2024-01-02 19:49:16,305 [INFO] - closed
+2024-01-02 19:49:16,541 [INFO] - No async queries seem to be running, deleting session
+2024-01-02 19:52:52,718 [INFO] - Execution Started
+2024-01-02 19:52:52,719 [INFO] - Inside remove_existing_files function
+2024-01-02 19:52:55,219 [INFO] - Existing files removed successfully
+2024-01-02 19:57:41,085 [INFO] - files succesfully removed from folder :::: J:\India\Inv Rpt\IT_INVENTORY\Risk
+2024-01-02 19:57:43,463 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2024-01-02 19:57:43,463 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-01-02 19:57:43,463 [INFO] - Setting use_openssl_only mode to False
+2024-01-02 19:57:45,263 [INFO] - query: [SELECT 1]
+2024-01-02 19:57:45,543 [INFO] - query execution done
+2024-01-02 19:57:45,543 [INFO] - Number of results in first chunk: 1
+2024-01-02 19:57:45,545 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2024-01-02 19:57:45,811 [INFO] - query execution done
+2024-01-02 19:57:45,812 [INFO] - Number of results in first chunk: 1
+2024-01-02 19:57:45,817 [INFO] - closed
+2024-01-02 19:57:46,074 [INFO] - No async queries seem to be running, deleting session
+2024-01-02 19:58:12,304 [INFO] - Process completed
+2024-01-03 18:56:34,160 [INFO] - Execution Started
+2024-01-03 18:56:36,365 [INFO] - Inside remove_existing_files function
+2024-01-03 19:05:28,826 [INFO] - Execution Started
+2024-01-03 19:05:28,827 [INFO] - Inside remove_existing_files function
+2024-01-03 19:09:50,344 [INFO] - Execution Started
+2024-01-03 19:09:50,345 [INFO] - Inside remove_existing_files function
+2024-01-03 19:15:13,887 [INFO] - files succesfully removed from folder :::: J:\India\Inv Rpt\IT_INVENTORY\Risk
+2024-01-03 19:15:19,009 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2024-01-03 19:15:19,009 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-01-03 19:15:19,009 [INFO] - Setting use_openssl_only mode to False
+2024-01-03 19:15:20,845 [INFO] - query: [SELECT 1]
+2024-01-03 19:15:21,129 [INFO] - query execution done
+2024-01-03 19:15:21,129 [INFO] - Number of results in first chunk: 1
+2024-01-03 19:15:21,144 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2024-01-03 19:15:21,393 [INFO] - query execution done
+2024-01-03 19:15:21,393 [INFO] - Number of results in first chunk: 1
+2024-01-03 19:15:21,393 [INFO] - closed
+2024-01-03 19:15:21,643 [INFO] - No async queries seem to be running, deleting session
+2024-01-03 19:15:46,119 [INFO] - Process completed
+2024-01-08 18:45:57,436 [INFO] - Execution Started
+2024-01-08 18:45:57,438 [INFO] - Inside remove_existing_files function
+2024-01-08 18:51:13,205 [INFO] - Execution Started
+2024-01-08 18:51:13,207 [INFO] - Inside remove_existing_files function
+2024-01-23 19:39:28,573 [INFO] - Execution Started
+2024-01-23 19:39:28,574 [INFO] - Inside remove_existing_files function
+2024-01-23 19:39:29,978 [INFO] - Existing files removed successfully
+2024-01-23 19:47:09,660 [INFO] - files succesfully removed from folder :::: K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS SINGAPORE REPORT\Input
+2024-01-23 19:47:11,667 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2024-01-23 19:47:11,667 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-01-23 19:47:11,667 [INFO] - Setting use_openssl_only mode to False
+2024-01-23 19:47:13,281 [INFO] - query: [SELECT 1]
+2024-01-23 19:47:13,534 [INFO] - query execution done
+2024-01-23 19:47:13,534 [INFO] - Number of results in first chunk: 1
+2024-01-23 19:47:13,534 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2024-01-23 19:47:13,801 [INFO] - query execution done
+2024-01-23 19:47:13,801 [INFO] - Number of results in first chunk: 1
+2024-01-23 19:47:13,801 [INFO] - closed
+2024-01-23 19:47:14,053 [INFO] - No async queries seem to be running, deleting session
+2024-01-23 19:47:34,463 [INFO] - Process completed
+2024-02-01 20:37:59,415 [INFO] - Execution Started
+2024-02-01 20:37:59,415 [INFO] - Inside remove_existing_files function
+2024-02-01 20:41:46,307 [INFO] - Execution Started
+2024-02-01 20:41:46,307 [INFO] - Inside remove_existing_files function
+2024-02-01 20:46:16,902 [INFO] - files succesfully removed from folder :::: J:\India\Inv Rpt\IT_INVENTORY\Risk
+2024-02-01 20:46:42,409 [INFO] - Process completed
+2024-02-02 13:27:50,677 [INFO] - Execution Started
+2024-02-02 13:27:53,296 [INFO] - Inside remove_existing_files function
+2024-02-02 13:40:46,000 [INFO] - Execution Started
+2024-02-02 13:40:46,000 [INFO] - Inside remove_existing_files function
+2024-02-02 13:45:13,486 [INFO] - files succesfully removed from folder :::: J:\India\Inv Rpt\IT_INVENTORY\Risk

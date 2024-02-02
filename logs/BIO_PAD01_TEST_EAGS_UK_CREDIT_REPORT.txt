@@ -491,3 +491,105 @@ UnboundLocalError: local variable 'raw_file' referenced before assignment
 2023-12-26 19:26:10,476 [INFO] - Process completed
 2023-12-29 15:09:16,412 [INFO] - Execution Started
 2023-12-29 15:09:18,727 [INFO] - Inside remove_existing_files function
+2023-12-29 18:51:56,993 [INFO] - Execution Started
+2023-12-29 18:51:56,995 [INFO] - Inside remove_existing_files function
+2023-12-29 18:53:25,106 [ERROR] - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+Traceback (most recent call last):
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 252, in proceesing_report
+    a=int(Eags_UK_sheet.range(F"G{i}").value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-12-29 18:53:25,108 [INFO] - Inbound/Outbound Tab Failure : int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-12-29 19:03:52,310 [INFO] - Execution Started
+2023-12-29 19:03:52,312 [INFO] - Inside remove_existing_files function
+2023-12-29 19:06:19,980 [ERROR] - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+Traceback (most recent call last):
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 252, in proceesing_report
+    a=int(Eags_UK_sheet.range(F"G{i}").value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-12-29 19:06:19,983 [INFO] - Inbound/Outbound Tab Failure : int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-12-29 19:06:31,507 [ERROR] - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+Traceback (most recent call last):
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 699, in eags_UK_report_runner
+    raise e
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 696, in eags_UK_report_runner
+    html_body = proceesing_report(template_wb,raw_wb,compare_wb,drive,locations_list,job_name,today_date,template_workbook,raw__path__)
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 594, in proceesing_report
+    raise e
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 590, in proceesing_report
+    raise e
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 252, in proceesing_report
+    a=int(Eags_UK_sheet.range(F"G{i}").value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2024-01-02 20:12:47,228 [INFO] - Execution Started
+2024-01-02 20:12:47,231 [INFO] - Inside remove_existing_files function
+2024-01-02 20:30:30,072 [INFO] - Execution Started
+2024-01-02 20:30:30,074 [INFO] - Inside remove_existing_files function
+2024-01-03 20:23:39,772 [INFO] - Execution Started
+2024-01-03 20:23:39,773 [INFO] - Inside remove_existing_files function
+2024-01-03 20:25:10,145 [INFO] - Exception caught in xlOpner :(-2147352570, 'Unknown name.', None, None)
+2024-01-03 20:27:23,228 [INFO] - Execution Started
+2024-01-03 20:27:23,230 [INFO] - Inside remove_existing_files function
+2024-01-03 20:32:17,967 [INFO] - files succesfully removed from folder :::: J:\India\Inv Rpt\IT_INVENTORY\Risk
+2024-01-03 20:33:46,089 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2024-01-03 20:33:46,090 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-01-03 20:33:46,090 [INFO] - Setting use_openssl_only mode to False
+2024-01-03 20:33:49,541 [INFO] - query: [SELECT 1]
+2024-01-03 20:33:51,420 [INFO] - query execution done
+2024-01-03 20:33:51,420 [INFO] - Number of results in first chunk: 1
+2024-01-03 20:33:51,422 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2024-01-03 20:33:51,894 [INFO] - query execution done
+2024-01-03 20:33:51,895 [INFO] - Number of results in first chunk: 1
+2024-01-03 20:33:51,906 [INFO] - closed
+2024-01-03 20:33:52,210 [INFO] - No async queries seem to be running, deleting session
+2024-01-03 20:34:17,060 [INFO] - Process completed
+2024-01-23 19:17:01,057 [INFO] - Execution Started
+2024-01-23 19:17:01,057 [INFO] - Inside remove_existing_files function
+2024-01-23 19:17:29,676 [INFO] - Exception caught in xlOpner :No such file: 'K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS UK REPORT\Input\UK_2024-01-23.xls'
+2024-01-23 19:18:40,267 [INFO] - Execution Started
+2024-01-23 19:18:43,087 [INFO] - Inside remove_existing_files function
+2024-01-23 19:20:05,430 [INFO] - Execution Started
+2024-01-23 19:20:07,877 [INFO] - Inside remove_existing_files function
+2024-01-23 19:25:21,466 [INFO] - Execution Started
+2024-01-23 19:25:24,229 [INFO] - Inside remove_existing_files function
+2024-02-01 20:55:17,394 [INFO] - Execution Started
+2024-02-01 20:55:22,214 [INFO] - Inside remove_existing_files function
+2024-02-02 12:15:29,886 [INFO] - Execution Started
+2024-02-02 12:15:29,887 [INFO] - Inside remove_existing_files function
+2024-02-02 12:15:32,138 [INFO] - could not open workbook: J:\India\Inv Rpt\IT_INVENTORY\Risk\EAGS_UK Credit Report.xlsx
+2024-02-02 12:15:32,138 [INFO] - Report not found ::: J:\India\Inv Rpt\IT_INVENTORY\Risk
+2024-02-02 12:16:06,792 [INFO] - Exception caught in xlOpner :No such file: 'K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS UK REPORT\Input\UK_2024-02-02.xls'
+2024-02-02 12:16:16,842 [ERROR] - No such file: 'K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS UK REPORT\Input\UK_2024-02-02.xls'
+Traceback (most recent call last):
+  File "c:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 655, in eags_UK_report_runner
+    raw_wb = xlOpner(raw_file)
+  File "c:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 30, in xlOpner
+    raise e
+  File "c:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 26, in xlOpner
+    raise e
+  File "c:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\UK_eags_report.py", line 20, in xlOpner
+    input_wb = xw.Book(inputFile, update_links=False)
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\xlwings\main.py", line 927, in __init__
+    impl = app.books.open(
+  File "C:\Users\deep.durugkar\AppData\Roaming\Python\Python38\site-packages\xlwings\main.py", line 5048, in open
+    raise FileNotFoundError("No such file: '%s'" % fullname)
+FileNotFoundError: No such file: 'K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS UK REPORT\Input\UK_2024-02-02.xls'
+2024-02-02 12:27:21,640 [INFO] - Execution Started
+2024-02-02 12:27:27,944 [INFO] - Inside remove_existing_files function
+2024-02-02 12:38:05,529 [INFO] - Execution Started
+2024-02-02 12:38:05,530 [INFO] - Inside remove_existing_files function
+2024-02-02 12:38:35,137 [INFO] - Exception caught in xlOpner :No such file: 'K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS UK REPORT\Input\UK_2024-02-02.xls'
+2024-02-02 12:42:13,076 [INFO] - Execution Started
+2024-02-02 12:42:13,077 [INFO] - Inside remove_existing_files function
+2024-02-02 12:42:42,310 [INFO] - Exception caught in xlOpner :No such file: 'K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS UK REPORT\Input\UK_2024-02-02.xls'
+2024-02-02 12:43:14,766 [INFO] - Execution Started
+2024-02-02 12:43:17,483 [INFO] - Inside remove_existing_files function
+2024-02-02 12:44:02,842 [INFO] - Execution Started
+2024-02-02 12:44:05,065 [INFO] - Inside remove_existing_files function
+2024-02-02 12:50:48,147 [INFO] - Execution Started
+2024-02-02 12:50:49,528 [INFO] - Inside remove_existing_files function
+2024-02-02 12:58:04,953 [INFO] - Execution Started
+2024-02-02 12:58:09,426 [INFO] - Inside remove_existing_files function
+2024-02-02 13:05:05,415 [INFO] - Execution Started
+2024-02-02 13:05:05,416 [INFO] - Inside remove_existing_files function
+2024-02-02 13:14:17,233 [INFO] - Execution Started
+2024-02-02 13:14:17,233 [INFO] - Inside remove_existing_files function

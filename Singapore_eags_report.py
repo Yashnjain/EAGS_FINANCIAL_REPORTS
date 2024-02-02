@@ -689,7 +689,7 @@ if __name__ == "__main__":
         if not os.path.exists(comaparision_workbook):
             logging.info(f"{comaparision_workbook} Excel file not present")           
 
-        template_workbook = drive + "\\EAGS SINGAPORE REPORT" + "\\Template File"+f'\\EAGS_SGP_ Credit Report_12.15.2023.xlsx'
+        template_workbook = drive + "\\EAGS SINGAPORE REPORT" + "\\Template File"+f'\\EAGS_SGP_ Credit Report.xlsx'
         if not os.path.exists(template_workbook):
             logging.info(f"{template_workbook} Excel file not present")
 

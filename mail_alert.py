@@ -1,17 +1,16 @@
-import os
 import smtplib
-import bu_config
+import email.mime.multipart
 import email.mime.text
 import email.mime.base
-import email.mime.multipart
 import email.encoders as encoders
-from email.mime.image import MIMEImage
-# from email.mime.text import MIMEText
+import bu_config
+import os
+
 
 from bu_alerts import __version__
 
-__author__ = "deep.durugkar"
-__copyright__ = "deep.durugkar"
+__author__ = "chetanbiourja"
+__copyright__ = "chetanbiourja"
 __license__ = "mit"
 
 def send_mail(
@@ -38,10 +37,11 @@ def send_mail(
     """
     done = False
     try:
-        config = bu_config.get_config(process_name="BU_ALERTS", table_name= "BU_CONFIG_PARAMS")
+        # config = bu_config.get_config(process_name="BU_ALERTS", table_name= "BU_CONFIG_PARAMS")
         if not sender_email or sender_password:
-            sender_email = config['USERNAME']
-            sender_password = config['PASSWORD']
+            sender_email = "biourjapowerdata@biourja.com"
+            # sender_password = r"bY3mLSQ-\Q!9QmXJ"
+            sender_password = "Texas08642"
         receivers = receiver_email.split(",")
         msg = email.mime.multipart.MIMEMultipart()
         msg['From'] = sender_email
@@ -64,24 +64,16 @@ def send_mail(
             for f in multiple_attachment_list:
                 path, file_name = os.path.split(f)
                 binary_file = open(f, 'rb')
-                if '.png' in file_name:
-                    fp = open(path+f"\\{file_name}", 'rb') #Read image 
-                    msgImage = MIMEImage(fp.read())
-                    fp.close()
-                    # Define the image's ID as referenced above
-                    msgImage.add_header('Content-Type', f'image/png')
-                    msgImage.add_header('Content-ID', f'<{file_name}>')
-                    msg.attach(msgImage)
-                else:    
-                    try:
-                        payload = email.mime.base.MIMEBase('application', 'octate-stream', Name=file_name)
-                    except:
-                        payload = email.mime.base.MIMEBase('application', 'octet-stream', Name=file_name)
-                    payload.set_payload((binary_file).read())
-                    #enconding the binary into base64
-                    encoders.encode_base64(payload)
-                    payload.add_header('Content-Decomposition', 'attachment', filename=file_name)
-                    msg.attach(payload)
+                
+                try:
+                    payload = email.mime.base.MIMEBase('application', 'octate-stream', Name=file_name)
+                except:
+                    payload = email.mime.base.MIMEBase('application', 'octet-stream', Name=file_name)
+                payload.set_payload((binary_file).read())
+                #enconding the binary into base64
+                encoders.encode_base64(payload)
+                payload.add_header('Content-Decomposition', 'attachment', filename=file_name)
+                msg.attach(payload)
 
         # s = smtplib.SMTP('smtp.gmail.com', 587) # creates SMTP session
         s = smtplib.SMTP('smtp.office365.com',
@@ -101,4 +93,4 @@ def send_mail(
         return done
 
 if __name__ == "__main__":
-    send_mail(receiver_email='deep.durugkar@biourja.com',mail_subject='test',mail_body='')
+    send_mail(receiver_email='chetan.surwade@biourja.com',mail_subject='test',mail_body='')

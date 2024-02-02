@@ -213,7 +213,7 @@ def proceesing_report(template_wb,raw_wb,compare_wb,drive,locations_list,job_nam
 
             pivot_sheet = template_wb.sheets['Pivot']
             pivot_sheet.activate()
-            num_col = data_sheet.range('A1').end('right').column        
+            num_col = data_sheet.range('A1').end('right').column
             pivotCount = template_wb.api.ActiveSheet.PivotTables().Count
             for j in range(1, pivotCount+1):
                 if template_wb.api.ActiveSheet.PivotTables(j).PivotCache().SourceData != f"'Data'!R3C1:R{lst_rw_raw}C{num_col}": #Updateing data source
@@ -423,7 +423,7 @@ def proceesing_report(template_wb,raw_wb,compare_wb,drive,locations_list,job_nam
             # grab the saved image from the clipboard and save to working directory
             credit_report_image_path = drive + "\\EAGS US REPORT" +"\\PNG Uploads" +"\\credit_report.png"
             ImageGrab.grabclipboard().save(credit_report_image_path)
-            locations_list.append(credit_report_image_path)  
+            locations_list.append(credit_report_image_path)
 
             time.sleep(2)
             sheet2.shapes[0].api.Copy()
@@ -432,7 +432,6 @@ def proceesing_report(template_wb,raw_wb,compare_wb,drive,locations_list,job_nam
             total_ar_outstanding_image_path = drive + "\\EAGS US REPORT" +"\\PNG Uploads" +"\\total_ar_outstanding.png"
             ImageGrab.grabclipboard().save(total_ar_outstanding_image_path)
             locations_list.append(total_ar_outstanding_image_path)
-
             time.sleep(2)
             sheet2.shapes[1].api.Copy()
             time.sleep(2)
@@ -441,9 +440,9 @@ def proceesing_report(template_wb,raw_wb,compare_wb,drive,locations_list,job_nam
             ImageGrab.grabclipboard().save(total_cr_past_image_path)
             locations_list.append(total_cr_past_image_path)
 
-            
 
-            html_body= """
+
+            html_body= """                                                                          
             <style>
                 img {
                     background-size: cover;
@@ -513,7 +512,6 @@ def proceesing_report(template_wb,raw_wb,compare_wb,drive,locations_list,job_nam
             </style>
 
             <body>
-
 
             <br>
             <c class="class1">

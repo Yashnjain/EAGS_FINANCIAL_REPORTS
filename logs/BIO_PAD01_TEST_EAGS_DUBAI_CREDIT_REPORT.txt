@@ -258,3 +258,107 @@ UnboundLocalError: local variable 'raw_wb' referenced before assignment
 2023-12-29 12:24:14,189 [INFO] - Inside remove_existing_files function
 2023-12-29 13:10:21,326 [INFO] - Execution Started
 2023-12-29 13:10:21,327 [INFO] - Inside remove_existing_files function
+2023-12-29 18:54:32,995 [INFO] - Execution Started
+2023-12-29 18:54:32,997 [INFO] - Inside remove_existing_files function
+2023-12-29 19:00:25,623 [INFO] - Execution Started
+2023-12-29 19:00:25,624 [INFO] - Inside remove_existing_files function
+2023-12-29 19:03:37,002 [ERROR] - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+Traceback (most recent call last):
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\Dubai_eags_report.py", line 249, in proceesing_report
+    a=int(Eags_UK_sheet.range(F"G{i}").value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-12-29 19:03:37,003 [INFO] - Inbound/Outbound Tab Failure : int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-12-29 19:03:37,005 [ERROR] - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+Traceback (most recent call last):
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\Dubai_eags_report.py", line 703, in eags_Dubai_report_runner
+    raise e
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\Dubai_eags_report.py", line 700, in eags_Dubai_report_runner
+    html_body = proceesing_report(template_wb,raw_wb,compare_wb,drive,locations_list,job_name,today_date,template_workbook,raw__path__)
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\Dubai_eags_report.py", line 590, in proceesing_report
+    raise e
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\Dubai_eags_report.py", line 586, in proceesing_report
+    raise e
+  File "C:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\Dubai_eags_report.py", line 249, in proceesing_report
+    a=int(Eags_UK_sheet.range(F"G{i}").value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2023-12-29 19:03:40,557 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2023-12-29 19:03:40,558 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2023-12-29 19:03:40,558 [INFO] - Setting use_openssl_only mode to False
+2024-01-02 19:11:48,716 [INFO] - Execution Started
+2024-01-02 19:11:48,719 [INFO] - Inside remove_existing_files function
+2024-01-02 19:16:03,778 [ERROR] - int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+Traceback (most recent call last):
+  File "c:\DEEP FOLDER\tasks2\SINGAPORE_REPORTS_EAGS\Dubai_eags_report.py", line 249, in proceesing_report
+    a=int(Eags_UK_sheet.range(F"G{i}").value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2024-01-02 19:18:02,585 [INFO] - Execution Started
+2024-01-02 19:18:02,586 [INFO] - Inside remove_existing_files function
+2024-01-02 19:24:12,169 [INFO] - Execution Started
+2024-01-02 19:24:12,170 [INFO] - Inside remove_existing_files function
+2024-01-02 19:30:22,495 [INFO] - files succesfully removed from folder :::: J:\India\Inv Rpt\IT_INVENTORY\Risk
+2024-01-02 19:30:22,539 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2024-01-02 19:30:22,542 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-01-02 19:30:22,542 [INFO] - Setting use_openssl_only mode to False
+2024-01-02 19:30:29,358 [INFO] - query: [SELECT 1]
+2024-01-02 19:30:31,639 [INFO] - query execution done
+2024-01-02 19:30:31,640 [INFO] - Number of results in first chunk: 1
+2024-01-02 19:30:31,642 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2024-01-02 19:30:32,070 [INFO] - query execution done
+2024-01-02 19:30:32,070 [INFO] - Number of results in first chunk: 1
+2024-01-02 19:30:32,077 [INFO] - closed
+2024-01-02 19:30:32,528 [INFO] - No async queries seem to be running, deleting session
+2024-01-02 19:30:59,117 [INFO] - Process completed
+2024-01-03 19:51:00,078 [INFO] - Execution Started
+2024-01-03 19:51:00,081 [INFO] - Inside remove_existing_files function
+2024-01-03 19:56:42,485 [INFO] - files succesfully removed from folder :::: J:\India\Inv Rpt\IT_INVENTORY\Risk
+2024-01-03 19:56:42,526 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2024-01-03 19:56:42,527 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-01-03 19:56:42,527 [INFO] - Setting use_openssl_only mode to False
+2024-01-03 19:56:44,449 [INFO] - query: [SELECT 1]
+2024-01-03 19:56:44,902 [INFO] - query execution done
+2024-01-03 19:56:44,903 [INFO] - Number of results in first chunk: 1
+2024-01-03 19:56:44,904 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2024-01-03 19:56:48,027 [INFO] - query execution done
+2024-01-03 19:56:48,027 [INFO] - Number of results in first chunk: 1
+2024-01-03 19:56:48,031 [INFO] - closed
+2024-01-03 19:56:48,663 [INFO] - No async queries seem to be running, deleting session
+2024-01-03 19:57:11,902 [INFO] - Process completed
+2024-01-23 19:00:51,309 [INFO] - Execution Started
+2024-01-23 19:00:54,638 [INFO] - Inside remove_existing_files function
+2024-01-23 19:03:44,205 [INFO] - K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS DUBAI REPORT\Template File\EAGS_UAE_ Credit Report.xlsx Excel file not present
+2024-01-23 19:09:04,571 [INFO] - files succesfully removed from folder :::: K:\_Credit Calc\Hamilton Metals Credit Report\AR Credit Report Automation\EAGS DUBAI REPORT\Input
+2024-01-23 19:09:08,155 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2024-01-23 19:09:08,155 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-01-23 19:09:08,156 [INFO] - Setting use_openssl_only mode to False
+2024-01-23 19:09:10,660 [INFO] - query: [SELECT 1]
+2024-01-23 19:09:10,901 [INFO] - query execution done
+2024-01-23 19:09:10,917 [INFO] - Number of results in first chunk: 1
+2024-01-23 19:09:10,917 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2024-01-23 19:09:11,191 [INFO] - query execution done
+2024-01-23 19:09:11,191 [INFO] - Number of results in first chunk: 1
+2024-01-23 19:09:11,194 [INFO] - closed
+2024-01-23 19:09:11,422 [INFO] - No async queries seem to be running, deleting session
+2024-01-23 19:09:33,167 [INFO] - Process completed
+2024-02-01 20:07:35,634 [INFO] - Execution Started
+2024-02-01 20:07:41,869 [INFO] - Inside remove_existing_files function
+2024-02-01 20:08:22,314 [INFO] - Execution Started
+2024-02-01 20:08:25,064 [INFO] - Inside remove_existing_files function
+2024-02-01 20:17:28,508 [INFO] - could not open workbook: J:\India\Inv Rpt\IT_INVENTORY\Risk\43AR_Open_Item_List.xls
+2024-02-01 20:17:28,508 [INFO] - Report not found ::: J:\India\Inv Rpt\IT_INVENTORY\Risk
+2024-02-01 20:23:30,322 [INFO] - Execution Started
+2024-02-01 20:23:30,323 [INFO] - Inside remove_existing_files function
+2024-02-01 20:29:55,088 [INFO] - files succesfully removed from folder :::: J:\India\Inv Rpt\IT_INVENTORY\Risk
+2024-02-01 20:30:06,572 [INFO] - Snowflake Connector for Python Version: 3.0.3, Python Version: 3.8.5, Platform: Windows-10-10.0.22621-SP0
+2024-02-01 20:30:06,572 [INFO] - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-02-01 20:30:06,572 [INFO] - Setting use_openssl_only mode to False
+2024-02-01 20:30:09,358 [INFO] - query: [SELECT 1]
+2024-02-01 20:30:09,706 [INFO] - query execution done
+2024-02-01 20:30:09,706 [INFO] - Number of results in first chunk: 1
+2024-02-01 20:30:09,706 [INFO] - query: [select * from POWERDB.PLOG.BU_CONFIG_PARAMS where PROJECT_NAME = 'BU_ALERTS' and...]
+2024-02-01 20:30:09,987 [INFO] - query execution done
+2024-02-01 20:30:09,987 [INFO] - Number of results in first chunk: 1
+2024-02-01 20:30:09,997 [INFO] - closed
+2024-02-01 20:30:10,232 [INFO] - No async queries seem to be running, deleting session
+2024-02-01 20:30:36,208 [INFO] - Process completed
+2024-02-02 13:49:22,225 [INFO] - Execution Started
+2024-02-02 13:49:25,173 [INFO] - Inside remove_existing_files function

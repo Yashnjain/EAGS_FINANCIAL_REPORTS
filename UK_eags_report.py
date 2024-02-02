@@ -622,9 +622,9 @@ def eags_UK_report_runner():
         remove_existing_files(raw__path__)
         time_start=time.time()
         today_date=date.today()
-        # raw_file_path = drive + "\\EAGS UK REPORT"+"\\Input"
+        raw_file_path = drive + "\\EAGS UK REPORT"+"\\Input"
         raw_file_path = r'J:\India\Inv Rpt\IT_INVENTORY\Risk'
-        for raw_file in glob.glob(raw_file_path+"\\*.xls"):
+        for raw_file in glob.glob(raw_file_path+"\\*.xlsx"):
                     # raw_file = glob.glob(raw_file_path+"\\*.xls")[0]    
             pathraw, file_name_inv = os.path.split(raw_file)
             try:
